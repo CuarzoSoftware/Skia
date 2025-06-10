@@ -4,7 +4,7 @@ ARCH_X64=("x64" "x86_64" "amd64")
 ARCH_X86=("x86" "i386" "i486" "i586" "i686")
 ARCH_ARM=("arm" "armel" "armhf")
 ARCH_ARM64=("arm64" "aarch64")
-BIN_DEPS=("git" "wget" "tar" "python3" "gcc" "g++")
+BIN_DEPS=("git" "wget" "tar" "python3" "clang" "clang++")
 LIB_DEPS=("egl" "gl" "glesv2" "harfbuzz" "icu-uc" "fontconfig" "freetype2" "zlib" "libpng" "libwebp" "libjpeg")
 
 help() {
@@ -18,7 +18,7 @@ help() {
     
     echo -e "- PREFIX: Install prefix path. For example SK_PREFIX=/"
     echo -e "- LIBDIR: Libraries install path relative to SK_PREFIX. For example SK_LIBDIR=/usr/lib -> final path SK_PREFIX/usr/lib"
-    echo -e "- INCDIR: Headers install path relative to SK_PREFIX. For example SK_INCDIR=/usr/include -> final path SK_PREFIX/usr/include/Skia\n"
+    echo -e "- INCDIR: Headers install path relative to SK_PREFIX. For example SK_INCDIR=/usr/include -> final path SK_PREFIX/usr/include/skia\n"
 }
 
 summary() {
@@ -61,6 +61,7 @@ in_array() {
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SK_VERSION=$(cat $SCRIPT_DIR/VERSION)
 SK_COMMIT=$(cat $SCRIPT_DIR/COMMIT)
+SK_OPTIONS=$(<$SCRIPT_DIR/OPTIONS)
 
 if [ -z "${SK_PREFIX}" ]; then
     echo -e "\nError: Missing install prefix."
@@ -160,7 +161,7 @@ done
 SK_FINAL_LIBDIR=$(concat_paths $SK_PREFIX  $SK_LIBDIR)
 SK_FINAL_PKG_DIR=$(concat_paths $SK_FINAL_LIBDIR "/pkgconfig")
 SK_FINAL_INCDIR=$(concat_paths $SK_PREFIX $SK_INCDIR)
-SK_FINAL_INCDIR=$(concat_paths $SK_FINAL_INCDIR "/Skia")
+SK_FINAL_INCDIR=$(concat_paths $SK_FINAL_INCDIR "/skia")
 mkdir -p $SK_FINAL_INCDIR
 mkdir -p $SK_FINAL_LIBDIR
 mkdir -p $SK_FINAL_PKG_DIR
@@ -209,53 +210,9 @@ else
     echo -e "\nbin/gn already downloaded, skipping..."
 fi
 
-bin/gn gen out/Shared --args='
-target_os="linux" 
-target_cpu="'$SK_ARCH'" 
-cc="gcc" 
-cxx="g++"
-is_debug=false
-is_official_build=true 
-is_component_build=true 
+source "$TMP_DIR/build/skia/third_party/externals/emsdk/emsdk_env.sh"
 
-skia_compile_modules=true 
-skia_compile_sksl_tests=false
-skunicode_tests_enabled=false
-skia_enable_skshaper_tests=false
-paragraph_tests_enabled=false
-
-skia_enable_fontmgr_empty=true
-
-skia_enable_tools=false
-skia_enable_gpu=true 
-skia_enable_skshaper=true
-skia_enable_svg=true 
-skia_enable_pdf=false
-skia_enable_skparagraph=true
-skia_enable_skunicode=true
-
-skia_use_harfbuzz=true          skia_use_system_harfbuzz=true
-skia_use_icu=true               skia_use_system_icu=true 
-skia_use_freetype=true          skia_use_system_freetype2=true 
-skia_use_zlib=true              skia_use_system_zlib=true 
-
-skia_use_gl=true
-skia_use_egl=true                      
-skia_use_libheif=true
-
-skia_use_system_libpng=true    
-skia_use_system_libwebp=true 
-skia_use_system_libjpeg_turbo=true
-
-skia_use_x11=false
-skia_use_angle=false
-skia_use_vulkan=false
-skia_use_metal=false
-skia_use_direct3d=false
-skia_use_dawn=false
-skia_use_expat=false
-skia_use_ffmpeg=false
-skia_use_sfml=false'
+bin/gn gen out/Shared --args="target_os=\"linux\" target_cpu=\"$SK_ARCH\" $SK_OPTIONS"
 
 ninja -C out/Shared
 
@@ -266,34 +223,55 @@ fi
 
 echo -e "\nInstalling libraries into $SK_FINAL_LIBDIR:"
 mkdir -p $SK_FINAL_LIBDIR
-cp -v $TMP_DIR/build/skia/out/Shared/*.a $SK_FINAL_LIBDIR
-cp -v $TMP_DIR/build/skia/out/Shared/*.so $SK_FINAL_LIBDIR
+
+# Add the "libcz_" prefix to avoid conflicts with other Skia installations
+for file in $TMP_DIR/build/skia/out/Shared/*.a $TMP_DIR/build/skia/out/Shared/*.so; do
+    new_name=$(basename "$file" | sed 's/^lib/libcz_/')
+    cp -v "$file" "$SK_FINAL_LIBDIR/$new_name"
+done
+
+echo -e "\nFixing headers include prefix..."
+
+mkdir -p $TMP_DIR/build/skia/fixed_headers/modules
+mkdir -p $TMP_DIR/build/skia/fixed_headers/src
+
+mkdir -p $SK_FINAL_INCDIR
+
+cd $TMP_DIR/build/skia/include
+find . -name "*.h" -exec cp --parents {} $TMP_DIR/build/skia/fixed_headers \;
+cd $TMP_DIR/build/skia/modules
+find . -name "*.h" -exec cp --parents {} $TMP_DIR/build/skia/fixed_headers/modules \;
+cd $TMP_DIR/build/skia/src
+find . -name "*.h" -exec cp --parents {} $TMP_DIR/build/skia/fixed_headers/src \;
+
+cd $TMP_DIR/build/skia/fixed_headers
+find . -type f -exec sed -i 's|#include "include/|#include "skia/|g' {} +
+find . -type f -exec sed -i 's|#include "modules/|#include "skia/modules/|g' {} +
+find . -type f -exec sed -i 's|#include "src/core/|#include "skia/src/core/|g' {} +
+find . -type f -exec sed -i 's|#include "src/base/|#include "skia/src/base/|g' {} +
 
 echo -e "\nInstalling headers into $SK_FINAL_INCDIR:"
-mkdir -p $SK_FINAL_INCDIR/include
-mkdir -p $SK_FINAL_INCDIR/modules
-mkdir -p $SK_FINAL_INCDIR/src
-cd $TMP_DIR/build/skia/include
-find . -name "*.h" -exec cp -v --parents {} $SK_FINAL_INCDIR/include \;
-cd $TMP_DIR/build/skia/modules
-find . -name "*.h" -exec cp -v --parents {} $SK_FINAL_INCDIR/modules \;
-cd $TMP_DIR/build/skia/src
-find . -name "*.h" -exec cp -v --parents {} $SK_FINAL_INCDIR/src \;
+find . -name "*.h" -exec cp -v --parents {} $SK_FINAL_INCDIR \;
+
+
+# Show configuration
+cd $TMP_DIR/build/skia
+bin/gn args out/Shared --list
 
 # Gen pkgconfig file
-cat <<EOF > $TMP_DIR/build/skia/out/Shared/Skia.pc
-includedir=$SK_INCDIR/Skia
+cat <<EOF > $TMP_DIR/build/skia/out/Shared/cuarzo-skia.pc
+includedir=$SK_INCDIR
 libdir=$SK_LIBDIR
 
-Name: Skia
+Name: cuarzo-skia
 Description: Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.
 Version: $SK_VERSION
-Libs: -L$SK_LIBDIR -lskia -lskunicode_core -lskunicode_icu -lskparagraph -lcompression_utils_portable -lpathkit -lskcms -lskshaper -ldng_sdk -lpiex -lwuffs
-Cflags: -I$SK_INCDIR/Skia -DSK_GL -DSK_GANESH -DSK_UNICODE_ICU_IMPLEMENTATION
+Libs: -L$SK_LIBDIR -lcz_skia -lcz_skunicode_core -lcz_skunicode_icu -lcz_skparagraph -lcz_compression_utils_portable -lcz_pathkit -lcz_skcms -lcz_skshaper -lcz_dng_sdk -lcz_piex -lcz_wuffs
+Cflags: -I$SK_INCDIR -DSK_GL -DSK_GANESH -DSK_VULKAN -DSK_UNICODE_ICU_IMPLEMENTATION
 EOF
 
-echo -e "\nInstalling Skia.pc into $SK_FINAL_PKG_DIR."
-cp $TMP_DIR/build/skia/out/Shared/Skia.pc $SK_FINAL_PKG_DIR
+echo -e "\nInstalling cuarzo-skia.pc into $SK_FINAL_PKG_DIR."
+cp $TMP_DIR/build/skia/out/Shared/cuarzo-skia.pc $SK_FINAL_PKG_DIR
 cd $SCRIPT_DIR
 
 summary
