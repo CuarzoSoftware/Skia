@@ -249,6 +249,8 @@ find . -type f -exec sed -i 's|#include "include/|#include "skia/|g' {} +
 find . -type f -exec sed -i 's|#include "modules/|#include "skia/modules/|g' {} +
 find . -type f -exec sed -i 's|#include "src/core/|#include "skia/src/core/|g' {} +
 find . -type f -exec sed -i 's|#include "src/base/|#include "skia/src/base/|g' {} +
+find . -type f -exec sed -i 's|#include "src/xml/|#include "skia/src/xml/|g' {} +
+find . -type f -exec sed -i 's|#include "src/utils/|#include "skia/src/utils/|g' {} +
 
 echo -e "\nInstalling headers into $SK_FINAL_INCDIR:"
 find . -name "*.h" -exec cp -v --parents {} $SK_FINAL_INCDIR \;
