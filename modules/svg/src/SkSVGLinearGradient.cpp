@@ -5,13 +5,13 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGLinearGradient.h"
+#include "modules/svg/include/SkSVGLinearGradient.h"
 
-#include "skia/core/SkColorSpace.h"
-#include "skia/core/SkPoint.h"
-#include "skia/effects/SkGradientShader.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "include/core/SkColorSpace.h"
+#include "include/core/SkPoint.h"
+#include "include/effects/SkGradientShader.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 class SkMatrix;
 class SkShader;

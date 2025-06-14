@@ -5,14 +5,14 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGPath.h"
+#include "modules/svg/include/SkSVGPath.h"
 
-#include "skia/core/SkCanvas.h"
-#include "skia/utils/SkParsePath.h"
-#include "skia/modules/svg/include/SkSVGAttribute.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
-#include "skia/modules/svg/include/SkSVGTypes.h"
+#include "include/core/SkCanvas.h"
+#include "include/utils/SkParsePath.h"
+#include "modules/svg/include/SkSVGAttribute.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
+#include "modules/svg/include/SkSVGTypes.h"
 
 class SkPaint;
 enum class SkPathFillType;

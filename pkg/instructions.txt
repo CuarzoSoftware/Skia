@@ -6,3 +6,4 @@
 6. Merge devel branch to main and push.
 7. Create GitHub release with tag v[major].[minor].[patch]-[build].
 8. Rebuild Fedora Copr.
+9. Update Ubuntu PPA package.

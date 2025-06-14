@@ -5,9 +5,9 @@
  * found in the LICENSE file.
  */
 
-#include "skia/core/SkScalar.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGFeLightSource.h"
+#include "include/core/SkScalar.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGFeLightSource.h"
 
 #include <cmath>
 

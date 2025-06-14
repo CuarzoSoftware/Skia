@@ -5,19 +5,19 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGGradient.h"
+#include "modules/svg/include/SkSVGGradient.h"
 
-#include "skia/core/SkM44.h"
-#include "skia/core/SkPaint.h"
-#include "skia/core/SkShader.h"  // IWYU pragma: keep
-#include "skia/core/SkSize.h"
-#include "skia/core/SkTileMode.h"
-#include "skia/private/base/SkAssert.h"
-#include "skia/private/base/SkDebug.h"
-#include "skia/private/base/SkTPin.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
-#include "skia/modules/svg/include/SkSVGStop.h"
+#include "include/core/SkM44.h"
+#include "include/core/SkPaint.h"
+#include "include/core/SkShader.h"  // IWYU pragma: keep
+#include "include/core/SkSize.h"
+#include "include/core/SkTileMode.h"
+#include "include/private/base/SkAssert.h"
+#include "include/private/base/SkDebug.h"
+#include "include/private/base/SkTPin.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
+#include "modules/svg/include/SkSVGStop.h"
 
 #include <array>
 #include <cstddef>

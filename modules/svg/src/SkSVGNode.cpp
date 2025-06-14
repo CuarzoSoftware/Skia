@@ -5,16 +5,16 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGNode.h"
+#include "modules/svg/include/SkSVGNode.h"
 
-#include "skia/core/SkColor.h"
-#include "skia/core/SkM44.h"
-#include "skia/core/SkMatrix.h"
-#include "skia/core/SkPath.h"
-#include "skia/pathops/SkPathOps.h"
-#include "skia/private/base/SkAssert.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
-#include "skia/src/base/SkTLazy.h"  // IWYU pragma: keep
+#include "include/core/SkColor.h"
+#include "include/core/SkM44.h"
+#include "include/core/SkMatrix.h"
+#include "include/core/SkPath.h"
+#include "include/pathops/SkPathOps.h"
+#include "include/private/base/SkAssert.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
+#include "src/base/SkTLazy.h"  // IWYU pragma: keep
 
 #include <algorithm>
 #include <array>

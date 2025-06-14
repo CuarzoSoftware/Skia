@@ -4,5 +4,5 @@
 **.autosave
 **.vscode
 **.mkv
-/tmp
+/utils/tmp
 uninstall.sh

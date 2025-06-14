@@ -5,13 +5,13 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGUse.h"
+#include "modules/svg/include/SkSVGUse.h"
 
-#include "skia/core/SkCanvas.h"
-#include "skia/core/SkScalar.h"
-#include "skia/private/base/SkDebug.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "include/core/SkCanvas.h"
+#include "include/core/SkScalar.h"
+#include "include/private/base/SkDebug.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 SkSVGUse::SkSVGUse() : INHERITED(SkSVGTag::kUse) {}
 

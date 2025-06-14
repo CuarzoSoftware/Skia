@@ -5,17 +5,17 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGPattern.h"
+#include "modules/svg/include/SkSVGPattern.h"
 
-#include "skia/core/SkPaint.h"
-#include "skia/core/SkPicture.h"
-#include "skia/core/SkPictureRecorder.h"
-#include "skia/core/SkRect.h"
-#include "skia/core/SkSamplingOptions.h"
-#include "skia/core/SkTileMode.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGContainer.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "include/core/SkPaint.h"
+#include "include/core/SkPicture.h"
+#include "include/core/SkPictureRecorder.h"
+#include "include/core/SkRect.h"
+#include "include/core/SkSamplingOptions.h"
+#include "include/core/SkTileMode.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGContainer.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 class SkMatrix;
 

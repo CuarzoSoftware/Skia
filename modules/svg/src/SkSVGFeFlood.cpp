@@ -5,13 +5,13 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFeFlood.h"
+#include "modules/svg/include/SkSVGFeFlood.h"
 
-#include "skia/core/SkScalar.h"
-#include "skia/core/SkShader.h"
-#include "skia/effects/SkImageFilters.h"
-#include "skia/private/base/SkDebug.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "include/core/SkScalar.h"
+#include "include/core/SkShader.h"
+#include "include/effects/SkImageFilters.h"
+#include "include/private/base/SkDebug.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 class SkImageFilter;
 class SkSVGFilterContext;

@@ -5,14 +5,14 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFeOffset.h"
+#include "modules/svg/include/SkSVGFeOffset.h"
 
-#include "skia/core/SkImageFilter.h"
-#include "skia/core/SkM44.h"
-#include "skia/effects/SkImageFilters.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGFilterContext.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "include/core/SkImageFilter.h"
+#include "include/core/SkM44.h"
+#include "include/effects/SkImageFilters.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGFilterContext.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 #include <utility>
 

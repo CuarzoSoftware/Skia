@@ -5,11 +5,11 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGContainer.h"
+#include "modules/svg/include/SkSVGContainer.h"
 
-#include "skia/core/SkPath.h"
-#include "skia/pathops/SkPathOps.h"
-#include "skia/private/base/SkAssert.h"
+#include "include/core/SkPath.h"
+#include "include/pathops/SkPathOps.h"
+#include "include/private/base/SkAssert.h"
 
 #include <utility>
 class SkSVGRenderContext;

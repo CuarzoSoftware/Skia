@@ -2,34 +2,37 @@
 %global origrel __BUILD__
 %global somajor __MAJOR__
 
-Name:           cuarzo-skia
+Name:           cz-skia
 Version:        %{basever}%{?origrel:_%{origrel}}
 Release:        1%{?dist}
-Summary:        Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.
+Summary:        A customized build of Skia tailored for Linux systems.
 
 License:        BSD-3
-URL:            https://github.com/CuarzoSoftware/Skia
+URL:            https://github.com/CuarzoSoftware/Louvre
 
-BuildRequires:  git
-BuildRequires:  tar
-BuildRequires:  wget
+BuildRequires:  meson
 BuildRequires:  gcc-c++
-BuildRequires:  python3
-BuildRequires:  ninja-build
-BuildRequires:  pkgconfig(egl)
+BuildRequires:  git
 BuildRequires:  pkgconfig(gl)
+BuildRequires:  pkgconfig(egl)
 BuildRequires:  pkgconfig(glesv2)
 BuildRequires:  pkgconfig(harfbuzz)
-BuildRequires:  pkgconfig(fontconfig)
 BuildRequires:  pkgconfig(icu-uc)
+BuildRequires:  pkgconfig(fontconfig)
 BuildRequires:  pkgconfig(freetype2)
 BuildRequires:  pkgconfig(zlib)
 BuildRequires:  pkgconfig(libpng)
 BuildRequires:  pkgconfig(libwebp)
+BuildRequires:  pkgconfig(libwebpdemux)
+BuildRequires:  pkgconfig(libwebpmux)
 BuildRequires:  pkgconfig(libjpeg)
+BuildRequires:  pkgconfig(epoxy)
+BuildRequires:  pkgconfig(SPIRV-Tools)
+BuildRequires:  pkgconfig(libavif)
+BuildRequires:  pkgconfig(expat)
 
 %description
-Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.
+A customized build of Skia tailored for Linux systems.
 
 %package        devel
 Summary:        Development files for %{name}
@@ -40,39 +43,27 @@ The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
 %prep
-rm -rf repo
-rm -f src.tar.gz
-mkdir -p repo
-wget -O src.tar.gz %{url}/archive/refs/tags/v%{basever}-1.tar.gz
-tar --strip-components=1 -xzvf src.tar.gz -C repo
+git clone --depth 1 https://github.com/CuarzoSoftware/Skia.git
 
 %build
-echo "Nothing to do here."
+pushd Skia
+%meson
+%meson_build
 
 %install
-pushd repo
-SK_ARCH=%{_arch} SK_PREFIX=%{buildroot} SK_LIBDIR=%{_libdir} SK_INCDIR=%{_includedir} ./install.sh
+pushd repo/src
+%meson_install
 
 %files
-%license repo/LICENSE
-%doc repo/BUILD repo/CHANGES repo/VERSION
-%{_libdir}/libbentleyottmann.so
-%{_libdir}/libskparagraph.so
-%{_libdir}/libskunicode_core.so
-%{_libdir}/libskia.so
-%{_libdir}/libskshaper.so 
-%{_libdir}/libskunicode_icu.so
-%{_libdir}/libcompression_utils_portable.a 
-%{_libdir}/libpathkit.a 
-%{_libdir}/libskcms.a
-%{_libdir}/libdng_sdk.a
-%{_libdir}/libpiex.a 
-%{_libdir}/libwuffs.a
+%license Skia/LICENSE
+%doc Skia/BUILD Skia/CHANGES Skia/VERSION
+%{_libdir}/libcz-skia.so.%{somajor}
 
 %files devel
-%doc repo/README.md
-%{_includedir}/Skia/
-%{_libdir}/pkgconfig/Skia.pc
+%doc Skia/README.md
+%{_includedir}/cz/skia
+%{_libdir}/libcz-skia.so
+%{_libdir}/pkgconfig/cz-skia.pc
 
 %changelog
 * __WEEK_DAY__ __MONTH__ __MONTH_DAY__ __YEAR__ Eduardo Hopperdietzel <ehopperdietzel@gmail.com> - %{basever}-%{origrel}

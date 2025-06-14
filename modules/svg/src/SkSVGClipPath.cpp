@@ -5,12 +5,12 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGClipPath.h"
+#include "modules/svg/include/SkSVGClipPath.h"
 
-#include "skia/core/SkM44.h"
-#include "skia/core/SkMatrix.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "include/core/SkM44.h"
+#include "include/core/SkMatrix.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 SkSVGClipPath::SkSVGClipPath() : INHERITED(SkSVGTag::kClipPath) {}
 

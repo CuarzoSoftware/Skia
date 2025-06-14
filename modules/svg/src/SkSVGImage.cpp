@@ -5,18 +5,18 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGImage.h"
+#include "modules/svg/include/SkSVGImage.h"
 
-#include "skia/core/SkCanvas.h"
-#include "skia/core/SkImage.h"
-#include "skia/core/SkMatrix.h"
-#include "skia/core/SkSamplingOptions.h"
-#include "skia/core/SkString.h"
-#include "skia/private/base/SkAssert.h"
-#include "skia/modules/skresources/include/SkResources.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
-#include "skia/src/utils/SkOSPath.h"
+#include "include/core/SkCanvas.h"
+#include "include/core/SkImage.h"
+#include "include/core/SkMatrix.h"
+#include "include/core/SkSamplingOptions.h"
+#include "include/core/SkString.h"
+#include "include/private/base/SkAssert.h"
+#include "modules/skresources/include/SkResources.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
+#include "src/utils/SkOSPath.h"
 
 #include <utility>
 
@@ -90,6 +90,7 @@ void SkSVGImage::onRender(const SkSVGRenderContext& ctx) const {
 
     const auto imgInfo = LoadImage(ctx.resourceProvider(), fHref, viewPort, fPreserveAspectRatio);
     if (!imgInfo.fImage) {
+        SkDEBUGF("can't render image: load image failed\n");
         return;
     }
 

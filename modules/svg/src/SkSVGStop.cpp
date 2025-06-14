@@ -5,9 +5,9 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGStop.h"
+#include "modules/svg/include/SkSVGStop.h"
 
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
 
 SkSVGStop::SkSVGStop() : INHERITED(SkSVGTag::kStop) {}
 

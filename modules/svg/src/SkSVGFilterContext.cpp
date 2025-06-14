@@ -5,21 +5,21 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFilterContext.h"
+#include "modules/svg/include/SkSVGFilterContext.h"
 
-#include "skia/core/SkBlendMode.h"
-#include "skia/core/SkColor.h"
-#include "skia/core/SkColorFilter.h"
-#include "skia/core/SkColorSpace.h"
-#include "skia/core/SkPaint.h"
-#include "skia/core/SkShader.h"
-#include "skia/effects/SkColorMatrix.h"
-#include "skia/effects/SkImageFilters.h"
-#include "skia/private/base/SkAssert.h"
-#include "skia/private/base/SkDebug.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
-#include "skia/modules/svg/include/SkSVGTypes.h"
-#include "skia/src/base/SkTLazy.h"
+#include "include/core/SkBlendMode.h"
+#include "include/core/SkColor.h"
+#include "include/core/SkColorFilter.h"
+#include "include/core/SkColorSpace.h"
+#include "include/core/SkPaint.h"
+#include "include/core/SkShader.h"
+#include "include/effects/SkColorMatrix.h"
+#include "include/effects/SkImageFilters.h"
+#include "include/private/base/SkAssert.h"
+#include "include/private/base/SkDebug.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
+#include "modules/svg/include/SkSVGTypes.h"
+#include "src/base/SkTLazy.h"
 
 #include <utility>
 

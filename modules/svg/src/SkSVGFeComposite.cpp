@@ -5,15 +5,15 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFeComposite.h"
+#include "modules/svg/include/SkSVGFeComposite.h"
 
-#include "skia/core/SkBlendMode.h"
-#include "skia/core/SkImageFilter.h"
-#include "skia/core/SkRect.h"
-#include "skia/effects/SkImageFilters.h"
-#include "skia/private/base/SkAssert.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGFilterContext.h"
+#include "include/core/SkBlendMode.h"
+#include "include/core/SkImageFilter.h"
+#include "include/core/SkRect.h"
+#include "include/effects/SkImageFilters.h"
+#include "include/private/base/SkAssert.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGFilterContext.h"
 
 #include <tuple>
 

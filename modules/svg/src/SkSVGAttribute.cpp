@@ -5,9 +5,9 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGAttribute.h"
+#include "modules/svg/include/SkSVGAttribute.h"
 
-#include "skia/core/SkColor.h"
+#include "include/core/SkColor.h"
 
 SkSVGPresentationAttributes SkSVGPresentationAttributes::MakeInitial() {
     SkSVGPresentationAttributes result;

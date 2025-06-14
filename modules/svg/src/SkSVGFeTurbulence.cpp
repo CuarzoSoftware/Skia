@@ -5,12 +5,12 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFeTurbulence.h"
+#include "modules/svg/include/SkSVGFeTurbulence.h"
 
-#include "skia/core/SkShader.h"
-#include "skia/effects/SkImageFilters.h"
-#include "skia/effects/SkPerlinNoiseShader.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
+#include "include/core/SkShader.h"
+#include "include/effects/SkImageFilters.h"
+#include "include/effects/SkPerlinNoiseShader.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
 
 class SkImageFilter;
 class SkSVGFilterContext;

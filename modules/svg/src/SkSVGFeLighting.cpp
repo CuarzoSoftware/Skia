@@ -5,18 +5,18 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFeLighting.h"
+#include "modules/svg/include/SkSVGFeLighting.h"
 
-#include "skia/core/SkImageFilter.h"
-#include "skia/core/SkM44.h"
-#include "skia/core/SkPoint3.h"
-#include "skia/effects/SkImageFilters.h"
-#include "skia/private/base/SkDebug.h"
-#include "skia/private/base/SkTArray.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGFeLightSource.h"
-#include "skia/modules/svg/include/SkSVGFilterContext.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "include/core/SkImageFilter.h"
+#include "include/core/SkM44.h"
+#include "include/core/SkPoint3.h"
+#include "include/effects/SkImageFilters.h"
+#include "include/private/base/SkDebug.h"
+#include "include/private/base/SkTArray.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGFeLightSource.h"
+#include "modules/svg/include/SkSVGFilterContext.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 bool SkSVGFeLighting::parseAndSetAttribute(const char* n, const char* v) {
     return INHERITED::parseAndSetAttribute(n, v) ||

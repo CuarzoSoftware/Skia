@@ -5,14 +5,14 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGSVG.h"
+#include "modules/svg/include/SkSVGSVG.h"
 
-#include "skia/core/SkCanvas.h"
-#include "skia/core/SkMatrix.h"
-#include "skia/core/SkRect.h"
-#include "skia/modules/svg/include/SkSVGAttribute.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
-#include "skia/modules/svg/include/SkSVGValue.h"
+#include "include/core/SkCanvas.h"
+#include "include/core/SkMatrix.h"
+#include "include/core/SkRect.h"
+#include "modules/svg/include/SkSVGAttribute.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
+#include "modules/svg/include/SkSVGValue.h"
 
 void SkSVGSVG::renderNode(const SkSVGRenderContext& ctx, const SkSVGIRI& iri) const {
     SkSVGRenderContext localContext(ctx, this);

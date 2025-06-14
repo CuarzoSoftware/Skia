@@ -5,13 +5,13 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGTransformableNode.h"
+#include "modules/svg/include/SkSVGTransformableNode.h"
 
-#include "skia/core/SkCanvas.h"
-#include "skia/core/SkRect.h"
-#include "skia/modules/svg/include/SkSVGAttribute.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
-#include "skia/modules/svg/include/SkSVGValue.h"
+#include "include/core/SkCanvas.h"
+#include "include/core/SkRect.h"
+#include "modules/svg/include/SkSVGAttribute.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
+#include "modules/svg/include/SkSVGValue.h"
 
 SkSVGTransformableNode::SkSVGTransformableNode(SkSVGTag tag)
     : INHERITED(tag)

@@ -5,13 +5,13 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFeMerge.h"
+#include "modules/svg/include/SkSVGFeMerge.h"
 
-#include "skia/core/SkImageFilter.h"
-#include "skia/effects/SkImageFilters.h"
-#include "skia/private/base/SkTArray.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGFilterContext.h"
+#include "include/core/SkImageFilter.h"
+#include "include/effects/SkImageFilters.h"
+#include "include/private/base/SkTArray.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGFilterContext.h"
 
 class SkSVGRenderContext;
 

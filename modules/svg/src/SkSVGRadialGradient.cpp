@@ -5,14 +5,14 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGRadialGradient.h"
+#include "modules/svg/include/SkSVGRadialGradient.h"
 
-#include "skia/core/SkColorSpace.h"
-#include "skia/core/SkPoint.h"
-#include "skia/core/SkShader.h"
-#include "skia/effects/SkGradientShader.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "include/core/SkColorSpace.h"
+#include "include/core/SkPoint.h"
+#include "include/core/SkShader.h"
+#include "include/effects/SkGradientShader.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 class SkMatrix;
 enum class SkTileMode;

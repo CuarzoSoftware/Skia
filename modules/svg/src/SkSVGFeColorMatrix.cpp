@@ -5,15 +5,15 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFeColorMatrix.h"
+#include "modules/svg/include/SkSVGFeColorMatrix.h"
 
-#include "skia/core/SkColorFilter.h"
-#include "skia/core/SkScalar.h"
-#include "skia/effects/SkImageFilters.h"
-#include "skia/private/base/SkAssert.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGFilterContext.h"
-#include "skia/src/core/SkColorData.h"
+#include "include/core/SkColorFilter.h"
+#include "include/core/SkScalar.h"
+#include "include/effects/SkImageFilters.h"
+#include "include/private/base/SkAssert.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGFilterContext.h"
+#include "src/core/SkColorData.h"
 
 #include <tuple>
 

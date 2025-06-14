@@ -5,12 +5,12 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFe.h"
+#include "modules/svg/include/SkSVGFe.h"
 
-#include "skia/modules/svg/include/SkSVGAttribute.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGFilterContext.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "modules/svg/include/SkSVGAttribute.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGFilterContext.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 #include <cstddef>
 #include <tuple>

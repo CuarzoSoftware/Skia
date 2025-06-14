@@ -1,60 +1,66 @@
-<h1 style="margin-top:0px;padding-top:0px">Skia</h1>
+<h1 style="margin-top:0px;padding-top:0px">cz-skia</h1>
 
 <p align="left">
   <a href="https://github.com/CuarzoSoftware/Skia/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-BSD--3-blue.svg" alt="Skia is released under the BSD-3 license." />
   </a>
   <a href="https://github.com/CuarzoSoftware/Skia">
-    <img src="https://img.shields.io/badge/version-134.0.0-brightgreen" alt="Current Skia version." />
+    <img src="https://img.shields.io/badge/version-0.1.0-brightgreen" alt="Current cz-skia version." />
   </a>
 </p>
 
-This repository contains a script for easily installing a components build of [Skia C++](https://github.com/google/skia) on a Linux system.
+This repository contains a **slightly modified** version of [Skia C++](https://github.com/google/skia), adapted for building with **Meson** on Linux.
+
+The entire library and its modules are compiled into a **single shared library**.
+
+## Modules
+
+- core
+- skcms
+- skresources
+- skunicode
+- skparagraph
+- skshaper
+- svg
+- ganesh
+- graphite
+- jpeg, png, webp, ico, bmp
 
 ## Fedora
 
-Install a prebuilt version from the [cuarzo/software](https://copr.fedorainfracloud.org/coprs/cuarzo/software/) COPR:
+Install directly from the [cuarzo/software](https://copr.fedorainfracloud.org/coprs/cuarzo/software/) COPR:
 
 ```bash
 $ sudo dnf copr enable cuarzo/software
-$ sudo dnf install cuarzo-skia-devel
+$ sudo dnf install cz-skia cz-skia-devel
 ```
 
 ## Linking
 
-Link the library using pkg-config for `Skia`.
+The pkg-config package name is `cz-skia`.
+
+Headers can be included like this:
+
+```cpp
+#include <skia/core/SkSurface.h>
+#include <skia/modules/skparagraph/include/Paragraph.h>
+```
 
 ## Manual Building
 
 ### Dependencies
 
-- git
-- wget
-- tar
-- python3
-- gcc
-- ninja
-- egl
-- gl
-- glesv2
-- harfbuzz
-- fontconfig
-- icu-uc
-- freetype2
-- zlib
-- libpng
-- libwebp
-- libjpeg
+Install Meson and the dependencies listed in `meson.build`.
 
 ### Build & Install
 
 ```bash
-$ git clone https://github.com/CuarzoSoftware/Skia/
-$ cd Skia
+$ cd Skia # This repo's root dir
+$ meson setup builddir -Dbuildtype=release
+$ cd builddir
+$ meson install
 
-# Run without params to see available options
-$ ./install.sh
-
-# Build & Install
-$ SK_ARCH=x64 SK_PREFIX=/ SK_LIBDIR=/usr/lib64 SK_INCDIR=/usr/include sudo -E ./install.sh
+# To remove later
+$ cd builddir
+$ sudo ninja uninstall
 ```

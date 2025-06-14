@@ -5,13 +5,13 @@
  * found in the LICENSE file.
  */
 
-#include "skia/core/SkCanvas.h"
-#include "skia/core/SkRRect.h"
-#include "skia/core/SkRect.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGRect.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
-#include "skia/modules/svg/src/SkSVGRectPriv.h"
+#include "include/core/SkCanvas.h"
+#include "include/core/SkRRect.h"
+#include "include/core/SkRect.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGRect.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
+#include "modules/svg/src/SkSVGRectPriv.h"
 
 #include <algorithm>
 #include <tuple>

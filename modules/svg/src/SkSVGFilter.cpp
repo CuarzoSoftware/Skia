@@ -5,17 +5,17 @@
  * found in the LICENSE file.
  */
 
-#include "skia/modules/svg/include/SkSVGFilter.h"
+#include "modules/svg/include/SkSVGFilter.h"
 
-#include "skia/core/SkColorFilter.h"
-#include "skia/core/SkImageFilter.h"
-#include "skia/core/SkRect.h"
-#include "skia/effects/SkImageFilters.h"
-#include "skia/private/base/SkTArray.h"
-#include "skia/modules/svg/include/SkSVGAttributeParser.h"
-#include "skia/modules/svg/include/SkSVGFe.h"
-#include "skia/modules/svg/include/SkSVGFilterContext.h"
-#include "skia/modules/svg/include/SkSVGRenderContext.h"
+#include "include/core/SkColorFilter.h"
+#include "include/core/SkImageFilter.h"
+#include "include/core/SkRect.h"
+#include "include/effects/SkImageFilters.h"
+#include "include/private/base/SkTArray.h"
+#include "modules/svg/include/SkSVGAttributeParser.h"
+#include "modules/svg/include/SkSVGFe.h"
+#include "modules/svg/include/SkSVGFilterContext.h"
+#include "modules/svg/include/SkSVGRenderContext.h"
 
 bool SkSVGFilter::parseAndSetAttribute(const char* name, const char* value) {
     return INHERITED::parseAndSetAttribute(name, value) ||
