@@ -77,7 +77,6 @@ deps = [
     dependency('libjpeg'),
     dependency('epoxy'),
     dependency('SPIRV-Tools'),
-    dependency('libavif'),
     dependency('expat'),
     dependency('threads'),
     cpp.find_library('dl'),

@@ -29,7 +29,6 @@ BuildRequires:  pkgconfig(libwebpmux)
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(epoxy)
 BuildRequires:  pkgconfig(SPIRV-Tools)
-BuildRequires:  pkgconfig(libavif)
 BuildRequires:  pkgconfig(expat)
 
 %description
