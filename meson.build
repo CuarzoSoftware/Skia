@@ -64,6 +64,7 @@ deps = [
     dependency('egl'),
     dependency('gl'),
     dependency('glesv2'),
+    dependency('vulkan'),
     dependency('harfbuzz'),
     dependency('icu-uc'),
     dependency('fontconfig'),

@@ -16,6 +16,7 @@ BuildRequires:  git
 BuildRequires:  pkgconfig(gl)
 BuildRequires:  pkgconfig(egl)
 BuildRequires:  pkgconfig(glesv2)
+BuildRequires:  pkgconfig(vulkan)
 BuildRequires:  pkgconfig(harfbuzz)
 BuildRequires:  pkgconfig(icu-uc)
 BuildRequires:  pkgconfig(fontconfig)
