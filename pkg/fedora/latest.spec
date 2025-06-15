@@ -29,7 +29,6 @@ BuildRequires:  pkgconfig(libwebpmux)
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(epoxy)
 BuildRequires:  pkgconfig(SPIRV-Tools)
-BuildRequires:  pkgconfig(libavif)
 BuildRequires:  pkgconfig(expat)
 
 %description
@@ -67,4 +66,5 @@ pushd repo/src
 %{_libdir}/pkgconfig/cz-skia.pc
 
 %changelog
-* Sat Jun 14 2025 Eduardo Hopperdietzel <ehopperdietzel@gmail.com> - %{basever}-%{origrel}- First release.
+* Sat Jun 14 2025 Eduardo Hopperdietzel <ehopperdietzel@gmail.com> - %{basever}-%{origrel}
+- First release.
