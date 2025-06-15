@@ -43,6 +43,7 @@ The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
 %prep
+rm -rf Skia
 git clone --depth 1 https://github.com/CuarzoSoftware/Skia.git
 
 %build
