@@ -52,7 +52,7 @@ pushd Skia
 %meson_build
 
 %install
-pushd repo/src
+pushd Skia
 %meson_install
 
 %files
