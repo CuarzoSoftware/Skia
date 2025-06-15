@@ -1,9 +1,8 @@
-**/build**
+**/builddir**
 **.user
 **.DS_Store
 **.autosave
 **.vscode
 **.mkv
-**/build**
 **/tmp**
 uninstall.sh
