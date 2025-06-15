@@ -8,13 +8,13 @@
 #ifndef SkImageFilter_Base_DEFINED
 #define SkImageFilter_Base_DEFINED
 
-#include "cz/skia/core/SkColorSpace.h"
-#include "cz/skia/core/SkImageFilter.h"
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/private/base/SkTArray.h"
-#include "cz/skia/private/base/SkTemplates.h"
+#include "CZ/skia/core/SkColorSpace.h"
+#include "CZ/skia/core/SkImageFilter.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/private/base/SkTArray.h"
+#include "CZ/skia/private/base/SkTemplates.h"
 
-#include "cz/skia/src/core/SkImageFilterTypes.h"
+#include "CZ/skia/src/core/SkImageFilterTypes.h"
 
 #include <optional>
 

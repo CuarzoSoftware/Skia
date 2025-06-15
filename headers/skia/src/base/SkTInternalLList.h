@@ -8,9 +8,9 @@
 #ifndef SkTInternalLList_DEFINED
 #define SkTInternalLList_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 /**
  * This macro creates the member variables required by the SkTInternalLList class. It should be

@@ -8,9 +8,9 @@
 #ifndef skgpu_VulkanMemoryAllocator_DEFINED
 #define skgpu_VulkanMemoryAllocator_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/gpu/vk/VulkanTypes.h"
-#include "cz/skia/private/gpu/vk/SkiaVulkan.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/gpu/vk/VulkanTypes.h"
+#include "CZ/skia/private/gpu/vk/SkiaVulkan.h"
 
 #include <cstdint>
 #include <utility>

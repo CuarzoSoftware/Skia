@@ -8,8 +8,8 @@
 #ifndef SkNoDrawCanvas_DEFINED
 #define SkNoDrawCanvas_DEFINED
 
-#include "cz/skia/core/SkCanvas.h"
-#include "cz/skia/core/SkCanvasVirtualEnforcer.h"
+#include "CZ/skia/core/SkCanvas.h"
+#include "CZ/skia/core/SkCanvasVirtualEnforcer.h"
 
 struct SkIRect;
 

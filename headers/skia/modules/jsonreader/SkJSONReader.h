@@ -8,9 +8,9 @@
 #ifndef SkJSON_DEFINED
 #define SkJSON_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkNoncopyable.h"
-#include "cz/skia/src/base/SkArenaAlloc.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkNoncopyable.h"
+#include "CZ/skia/src/base/SkArenaAlloc.h"
 
 #include <cstdint>
 #include <cstring>

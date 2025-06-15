@@ -8,11 +8,11 @@
 #ifndef SkPixelRef_DEFINED
 #define SkPixelRef_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/private/SkIDChangeListener.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/private/SkIDChangeListener.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 #include <atomic>
 #include <cstddef>

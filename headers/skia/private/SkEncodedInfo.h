@@ -8,15 +8,15 @@
 #ifndef SkEncodedInfo_DEFINED
 #define SkEncodedInfo_DEFINED
 
-#include "cz/skia/core/SkAlphaType.h"
-#include "cz/skia/core/SkColorSpace.h"
-#include "cz/skia/core/SkColorType.h"
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkTo.h"
-#include "cz/skia/modules/skcms/skcms.h"
+#include "CZ/skia/core/SkAlphaType.h"
+#include "CZ/skia/core/SkColorSpace.h"
+#include "CZ/skia/core/SkColorType.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkTo.h"
+#include "CZ/skia/modules/skcms/skcms.h"
 
 #include <cstdint>
 #include <memory>

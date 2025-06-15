@@ -8,8 +8,8 @@
 #ifndef SkSwizzlePriv_DEFINED
 #define SkSwizzlePriv_DEFINED
 
-#include "cz/skia/src/base/SkVx.h"
-#include "cz/skia/src/core/SkColorData.h"
+#include "CZ/skia/src/base/SkVx.h"
+#include "CZ/skia/src/core/SkColorData.h"
 
 #include <cstdint>
 

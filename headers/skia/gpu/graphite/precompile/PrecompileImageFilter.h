@@ -8,11 +8,11 @@
 #ifndef skgpu_graphite_precompile_PrecompileImageFilter_DEFINED
 #define skgpu_graphite_precompile_PrecompileImageFilter_DEFINED
 
-#include "cz/skia/gpu/graphite/precompile/PrecompileBase.h"
+#include "CZ/skia/gpu/graphite/precompile/PrecompileBase.h"
 
-#include "cz/skia/core/SkBlendMode.h"
-#include "cz/skia/gpu/graphite/precompile/PaintOptions.h"
-#include "cz/skia/private/base/SkTemplates.h"
+#include "CZ/skia/core/SkBlendMode.h"
+#include "CZ/skia/gpu/graphite/precompile/PaintOptions.h"
+#include "CZ/skia/private/base/SkTemplates.h"
 
 namespace skgpu::graphite {
 

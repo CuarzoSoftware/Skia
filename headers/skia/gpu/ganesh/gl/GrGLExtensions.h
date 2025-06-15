@@ -8,11 +8,11 @@
 #ifndef GrGLExtensions_DEFINED
 #define GrGLExtensions_DEFINED
 
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/gpu/ganesh/gl/GrGLFunctions.h"
-#include "cz/skia/gpu/ganesh/gl/GrGLTypes.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkTArray.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/gpu/ganesh/gl/GrGLFunctions.h"
+#include "CZ/skia/gpu/ganesh/gl/GrGLTypes.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkTArray.h"
 
 #include <utility>
 

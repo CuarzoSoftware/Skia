@@ -8,9 +8,9 @@
 #ifndef SkTHash_DEFINED
 #define SkTHash_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/src/base/SkMathPriv.h"
-#include "cz/skia/src/core/SkChecksum.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/src/base/SkMathPriv.h"
+#include "CZ/skia/src/core/SkChecksum.h"
 
 #include <initializer_list>
 #include <memory>

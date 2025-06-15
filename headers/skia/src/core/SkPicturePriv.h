@@ -8,9 +8,9 @@
 #ifndef SkPicturePriv_DEFINED
 #define SkPicturePriv_DEFINED
 
-#include "cz/skia/core/SkFourByteTag.h"
-#include "cz/skia/core/SkPicture.h"
-#include "cz/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkFourByteTag.h"
+#include "CZ/skia/core/SkPicture.h"
+#include "CZ/skia/core/SkRefCnt.h"
 
 #include <atomic>
 #include <cstdint>

@@ -8,13 +8,13 @@
 #ifndef SkSVGText_DEFINED
 #define SkSVGText_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/modules/svg/include/SkSVGNode.h"
-#include "cz/skia/modules/svg/include/SkSVGTransformableNode.h"
-#include "cz/skia/modules/svg/include/SkSVGTypes.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/modules/svg/include/SkSVGNode.h"
+#include "CZ/skia/modules/svg/include/SkSVGTransformableNode.h"
+#include "CZ/skia/modules/svg/include/SkSVGTypes.h"
 
 #include <vector>
 

@@ -2,12 +2,12 @@
 #ifndef TypefaceFontProvider_DEFINED
 #define TypefaceFontProvider_DEFINED
 
-#include "cz/skia/core/SkFontMgr.h"
-#include "cz/skia/core/SkFontStyle.h"
-#include "cz/skia/core/SkStream.h"
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/private/base/SkTArray.h"
-#include "cz/skia/src/core/SkTHash.h"
+#include "CZ/skia/core/SkFontMgr.h"
+#include "CZ/skia/core/SkFontStyle.h"
+#include "CZ/skia/core/SkStream.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/private/base/SkTArray.h"
+#include "CZ/skia/src/core/SkTHash.h"
 
 #include <string>
 #include <unordered_map>

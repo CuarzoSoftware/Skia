@@ -8,8 +8,8 @@
 #ifndef skgpu_graphite_precompile_PrecompileBlender_DEFINED
 #define skgpu_graphite_precompile_PrecompileBlender_DEFINED
 
-#include "cz/skia/core/SkBlendMode.h"
-#include "cz/skia/gpu/graphite/precompile/PrecompileBase.h"
+#include "CZ/skia/core/SkBlendMode.h"
+#include "CZ/skia/gpu/graphite/precompile/PrecompileBase.h"
 
 #include <optional>
 

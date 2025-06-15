@@ -10,7 +10,7 @@
 
 #include <cstring>
 
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 /*
     memory wrappers to be implemented by the porting layer (platform)

@@ -8,7 +8,7 @@
 #ifndef SkShaper_coretext_DEFINED
 #define SkShaper_coretext_DEFINED
 
-#include "cz/skia/modules/skshaper/include/SkShaper.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper.h"
 
 #include <memory>
 

@@ -8,7 +8,7 @@
 #ifndef SkSLSampleUsage_DEFINED
 #define SkSLSampleUsage_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 namespace SkSL {
 

@@ -9,9 +9,9 @@
 #ifndef SkStrokerPriv_DEFINED
 #define SkStrokerPriv_DEFINED
 
-#include "cz/skia/core/SkPaint.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkScalar.h"
 
 class SkPath;
 

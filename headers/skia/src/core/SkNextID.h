@@ -8,7 +8,7 @@
 #ifndef SkNextID_DEFINED
 #define SkNextID_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 class SkNextID {
 public:

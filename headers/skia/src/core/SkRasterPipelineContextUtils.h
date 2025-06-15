@@ -8,8 +8,8 @@
 #ifndef SkRasterPipelineContextUtils_DEFINED
 #define SkRasterPipelineContextUtils_DEFINED
 
-#include "cz/skia/src/base/SkArenaAlloc.h"
-#include "cz/skia/src/base/SkUtils.h"
+#include "CZ/skia/src/base/SkArenaAlloc.h"
+#include "CZ/skia/src/base/SkUtils.h"
 
 #include <cstring>
 #include <type_traits>

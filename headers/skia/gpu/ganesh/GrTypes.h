@@ -8,9 +8,9 @@
 #ifndef GrTypes_DEFINED
 #define GrTypes_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/gpu/GpuTypes.h"
-#include "cz/skia/private/base/SkTo.h" // IWYU pragma: keep
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/gpu/GpuTypes.h"
+#include "CZ/skia/private/base/SkTo.h" // IWYU pragma: keep
 
 #include <cstddef>
 #include <cstdint>

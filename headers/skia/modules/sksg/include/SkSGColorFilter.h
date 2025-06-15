@@ -8,11 +8,11 @@
 #ifndef SkSGColorFilter_DEFINED
 #define SkSGColorFilter_DEFINED
 
-#include "cz/skia/core/SkColorFilter.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/modules/sksg/include/SkSGEffectNode.h"
-#include "cz/skia/modules/sksg/include/SkSGNode.h"
+#include "CZ/skia/core/SkColorFilter.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/modules/sksg/include/SkSGEffectNode.h"
+#include "CZ/skia/modules/sksg/include/SkSGNode.h"
 
 #include <vector>
 

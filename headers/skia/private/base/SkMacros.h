@@ -7,7 +7,7 @@
 #ifndef SkMacros_DEFINED
 #define SkMacros_DEFINED
 
-#include "cz/skia/private/base/SkTo.h" // IWYU pragma: keep
+#include "CZ/skia/private/base/SkTo.h" // IWYU pragma: keep
 
 /*
  *  Usage:  SK_MACRO_CONCAT(a, b)   to construct the symbol ab

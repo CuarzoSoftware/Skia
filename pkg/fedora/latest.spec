@@ -62,10 +62,10 @@ pushd Skia
 
 %files devel
 %doc Skia/README.md
-%{_includedir}/cz/skia
+%{_includedir}/CZ/skia
 %{_libdir}/libcz-skia.so
 %{_libdir}/pkgconfig/cz-skia.pc
 
 %changelog
-* Sat Jun 14 2025 Eduardo Hopperdietzel <ehopperdietzel@gmail.com> - %{basever}-%{origrel}
+* Sun Jun 15 2025 Eduardo Hopperdietzel <ehopperdietzel@gmail.com> - %{basever}-%{origrel}
 - First release.

@@ -8,11 +8,11 @@
 #ifndef skgpu_graphite_TextureInfo_DEFINED
 #define skgpu_graphite_TextureInfo_DEFINED
 
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/core/SkTextureCompressionType.h"
-#include "cz/skia/gpu/graphite/GraphiteTypes.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkAnySubclass.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/core/SkTextureCompressionType.h"
+#include "CZ/skia/gpu/graphite/GraphiteTypes.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkAnySubclass.h"
 
 struct SkISize;
 

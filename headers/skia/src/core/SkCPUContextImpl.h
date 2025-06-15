@@ -7,9 +7,9 @@
 #ifndef skcpu_ContextImpl_DEFINED
 #define skcpu_ContextImpl_DEFINED
 
-#include "cz/skia/core/SkCPUContext.h"
-#include "cz/skia/core/SkSurfaceProps.h"
-#include "cz/skia/src/core/SkResourceCache.h"
+#include "CZ/skia/core/SkCPUContext.h"
+#include "CZ/skia/core/SkSurfaceProps.h"
+#include "CZ/skia/src/core/SkResourceCache.h"
 
 namespace skcpu {
 class ContextImpl final : public Context {

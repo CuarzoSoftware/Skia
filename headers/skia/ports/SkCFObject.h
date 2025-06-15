@@ -10,7 +10,7 @@
 
 #ifdef __APPLE__
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstddef>      // std::nullptr_t
 

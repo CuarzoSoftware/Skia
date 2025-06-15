@@ -8,9 +8,9 @@
 #ifndef SkSGNode_DEFINED
 #define SkSGNode_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAssert.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAssert.h"
 
 #include <cstdint>
 #include <vector>

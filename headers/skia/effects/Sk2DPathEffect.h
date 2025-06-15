@@ -8,9 +8,9 @@
 #ifndef Sk2DPathEffect_DEFINED
 #define Sk2DPathEffect_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
 
 class SkMatrix;
 class SkPath;

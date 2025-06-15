@@ -8,10 +8,10 @@
 #ifndef SkBlitter_A8_DEFINED
 #define SkBlitter_A8_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkPixmap.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/src/core/SkBlitter.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkPixmap.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/src/core/SkBlitter.h"
 
 #include <cstdint>
 

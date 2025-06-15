@@ -8,11 +8,11 @@
 #ifndef SkMask_DEFINED
 #define SkMask_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkTemplates.h"
-#include "cz/skia/src/core/SkColorData.h"
-#include "cz/skia/src/core/SkColorPriv.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkTemplates.h"
+#include "CZ/skia/src/core/SkColorData.h"
+#include "CZ/skia/src/core/SkColorPriv.h"
 
 #include <cstddef>
 #include <cstdint>

@@ -8,9 +8,9 @@
 #ifndef SkAdvancedTypefaceMetrics_DEFINED
 #define SkAdvancedTypefaceMetrics_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/src/base/SkBitmaskEnum.h"  // IWYU pragma: keep
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/src/base/SkBitmaskEnum.h"  // IWYU pragma: keep
 
 #include <cstdint>
 #include <type_traits>

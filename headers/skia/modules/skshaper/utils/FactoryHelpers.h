@@ -7,29 +7,29 @@
 #ifndef SkShaperFactoryHelpers_DEFINED
 #define SkShaperFactoryHelpers_DEFINED
 
-#include "cz/skia/modules/skshaper/include/SkShaper.h"
-#include "cz/skia/modules/skshaper/include/SkShaper_factory.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper_factory.h"
 
 #if defined(SK_SHAPER_HARFBUZZ_AVAILABLE) && defined(SK_SHAPER_UNICODE_AVAILABLE)
-#include "cz/skia/modules/skshaper/include/SkShaper_harfbuzz.h"
-#include "cz/skia/modules/skshaper/include/SkShaper_skunicode.h"
-#include "cz/skia/modules/skunicode/include/SkUnicode.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper_harfbuzz.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper_skunicode.h"
+#include "CZ/skia/modules/skunicode/include/SkUnicode.h"
 #endif
 
 #if defined(SK_SHAPER_CORETEXT_AVAILABLE)
-#include "cz/skia/modules/skshaper/include/SkShaper_coretext.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper_coretext.h"
 #endif
 
 #if defined(SK_UNICODE_ICU_IMPLEMENTATION)
-#include "cz/skia/modules/skunicode/include/SkUnicode_icu.h"
+#include "CZ/skia/modules/skunicode/include/SkUnicode_icu.h"
 #endif
 
 #if defined(SK_UNICODE_LIBGRAPHEME_IMPLEMENTATION)
-#include "cz/skia/modules/skunicode/include/SkUnicode_libgrapheme.h"
+#include "CZ/skia/modules/skunicode/include/SkUnicode_libgrapheme.h"
 #endif
 
 #if defined(SK_UNICODE_ICU4X_IMPLEMENTATION)
-#include "cz/skia/modules/skunicode/include/SkUnicode_icu4x.h"
+#include "CZ/skia/modules/skunicode/include/SkUnicode_icu4x.h"
 #endif
 
 namespace SkShapers {

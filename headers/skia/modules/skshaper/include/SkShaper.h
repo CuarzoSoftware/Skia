@@ -8,14 +8,14 @@
 #ifndef SkShaper_DEFINED
 #define SkShaper_DEFINED
 
-#include "cz/skia/core/SkFont.h"
-#include "cz/skia/core/SkFourByteTag.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/core/SkTextBlob.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkFont.h"
+#include "CZ/skia/core/SkFourByteTag.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/core/SkTextBlob.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstddef>
 #include <cstdint>
@@ -27,7 +27,7 @@ class SkFontStyle;
 #if defined(SK_DISABLE_LEGACY_SKSHAPER_FUNCTIONS)
 class SkFontMgr;
 #else
-#include "cz/skia/core/SkFontMgr.h"
+#include "CZ/skia/core/SkFontMgr.h"
 #endif
 
 #if !defined(SKSHAPER_IMPLEMENTATION)

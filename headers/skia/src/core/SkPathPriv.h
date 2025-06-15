@@ -8,20 +8,20 @@
 #ifndef SkPathPriv_DEFINED
 #define SkPathPriv_DEFINED
 
-#include "cz/skia/core/SkArc.h"
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkPathBuilder.h"
-#include "cz/skia/core/SkPathTypes.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/SkIDChangeListener.h"
-#include "cz/skia/private/SkPathRef.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/src/core/SkPathEnums.h"
+#include "CZ/skia/core/SkArc.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkPathBuilder.h"
+#include "CZ/skia/core/SkPathTypes.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/SkIDChangeListener.h"
+#include "CZ/skia/private/SkPathRef.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/src/core/SkPathEnums.h"
 
 #include <cstddef>
 #include <cstdint>

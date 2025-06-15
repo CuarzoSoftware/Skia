@@ -8,7 +8,7 @@
 #ifndef SkSVGAttribute_DEFINED
 #define SkSVGAttribute_DEFINED
 
-#include "cz/skia/modules/svg/include/SkSVGTypes.h"
+#include "CZ/skia/modules/svg/include/SkSVGTypes.h"
 
 enum class SkSVGAttribute {
     kClipRule,

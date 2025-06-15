@@ -8,7 +8,7 @@
 #ifndef SkRRectPriv_DEFINED
 #define SkRRectPriv_DEFINED
 
-#include "cz/skia/core/SkRRect.h"
+#include "CZ/skia/core/SkRRect.h"
 
 class SkRBuffer;
 class SkWBuffer;

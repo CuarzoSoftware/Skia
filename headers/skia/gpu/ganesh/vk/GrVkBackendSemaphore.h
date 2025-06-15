@@ -8,9 +8,9 @@
 #ifndef GrVkBackendSemaphore_DEFINED
 #define GrVkBackendSemaphore_DEFINED
 
-#include "cz/skia/gpu/ganesh/GrBackendSemaphore.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/gpu/vk/SkiaVulkan.h"
+#include "CZ/skia/gpu/ganesh/GrBackendSemaphore.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/gpu/vk/SkiaVulkan.h"
 
 namespace GrBackendSemaphores {
 SK_API GrBackendSemaphore MakeVk(VkSemaphore semaphore);

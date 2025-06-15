@@ -8,13 +8,13 @@
 #ifndef skgpu_SingleOwner_DEFINED
 #define skgpu_SingleOwner_DEFINED
 
-#include "cz/skia/private/base/SkDebug.h" // IWYU pragma: keep
+#include "CZ/skia/private/base/SkDebug.h" // IWYU pragma: keep
 
 #if defined(SK_DEBUG)
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkMutex.h"
-#include "cz/skia/private/base/SkThreadAnnotations.h"
-#include "cz/skia/private/base/SkThreadID.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkMutex.h"
+#include "CZ/skia/private/base/SkThreadAnnotations.h"
+#include "CZ/skia/private/base/SkThreadID.h"
 
 #endif
 

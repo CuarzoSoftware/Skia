@@ -7,9 +7,9 @@
 #ifndef SkColorSpacePriv_DEFINED
 #define SkColorSpacePriv_DEFINED
 
-#include "cz/skia/core/SkColorSpace.h"
-#include "cz/skia/private/base/SkTemplates.h"
-#include "cz/skia/modules/skcms/skcms.h"
+#include "CZ/skia/core/SkColorSpace.h"
+#include "CZ/skia/private/base/SkTemplates.h"
+#include "CZ/skia/modules/skcms/skcms.h"
 
 // A gamut narrower than sRGB, useful for testing.
 static constexpr skcms_Matrix3x3 gNarrow_toXYZD50 = {{

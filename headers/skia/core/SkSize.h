@@ -8,8 +8,8 @@
 #ifndef SkSize_DEFINED
 #define SkSize_DEFINED
 
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 #include <cstdint>
 

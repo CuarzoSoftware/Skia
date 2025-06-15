@@ -8,11 +8,11 @@
 #ifndef SkFontPriv_DEFINED
 #define SkFontPriv_DEFINED
 
-#include "cz/skia/core/SkFont.h"
-#include "cz/skia/core/SkFontTypes.h"
-#include "cz/skia/core/SkMatrix.h"
-#include "cz/skia/core/SkTypeface.h"
-#include "cz/skia/private/base/SkTemplates.h"
+#include "CZ/skia/core/SkFont.h"
+#include "CZ/skia/core/SkFontTypes.h"
+#include "CZ/skia/core/SkMatrix.h"
+#include "CZ/skia/core/SkTypeface.h"
+#include "CZ/skia/private/base/SkTemplates.h"
 
 class SkReadBuffer;
 class SkWriteBuffer;

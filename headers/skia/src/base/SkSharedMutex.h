@@ -8,12 +8,12 @@
 #ifndef SkSharedLock_DEFINED
 #define SkSharedLock_DEFINED
 
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkSemaphore.h"
-#include "cz/skia/private/base/SkThreadAnnotations.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkSemaphore.h"
+#include "CZ/skia/private/base/SkThreadAnnotations.h"
 
 #ifdef SK_DEBUG
-    #include "cz/skia/private/base/SkMutex.h"
+    #include "CZ/skia/private/base/SkMutex.h"
     #include <memory>
 #endif  // SK_DEBUG
 

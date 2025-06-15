@@ -8,8 +8,8 @@
 #ifndef SkUnicode_client_DEFINED
 #define SkUnicode_client_DEFINED
 
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/modules/skunicode/include/SkUnicode.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/modules/skunicode/include/SkUnicode.h"
 
 #include <memory>
 #include <vector>

@@ -13,8 +13,8 @@
 
 #include <stdio.h>
 
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/private/base/SkTemplates.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/private/base/SkTemplates.h"
 
 enum SkFILE_Flags {
     kRead_SkFILE_Flag   = 0x01,

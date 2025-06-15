@@ -4,8 +4,8 @@
 #ifndef SweepLine_DEFINED
 #define SweepLine_DEFINED
 
-#include "cz/skia/modules/bentleyottmann/include/EventQueueInterface.h"
-#include "cz/skia/modules/bentleyottmann/include/Segment.h"
+#include "CZ/skia/modules/bentleyottmann/include/EventQueueInterface.h"
+#include "CZ/skia/modules/bentleyottmann/include/Segment.h"
 
 #include <cstdint>
 #include <vector>

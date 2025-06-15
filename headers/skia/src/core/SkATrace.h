@@ -8,7 +8,7 @@
 #ifndef SkATrace_DEFINED
 #define SkATrace_DEFINED
 
-#include "cz/skia/utils/SkEventTracer.h"
+#include "CZ/skia/utils/SkEventTracer.h"
 
 #include <cstdint>
 

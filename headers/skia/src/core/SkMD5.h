@@ -8,9 +8,9 @@
 #ifndef SkMD5_DEFINED
 #define SkMD5_DEFINED
 
-#include "cz/skia/core/SkStream.h"
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/core/SkStream.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 #include <cstdint>
 #include <cstring>

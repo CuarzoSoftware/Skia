@@ -1,7 +1,7 @@
 // Copyright 2019 Google LLC.
-#include "cz/skia/modules/skparagraph/include/FontCollection.h"
-#include "cz/skia/modules/skparagraph/include/TypefaceFontProvider.h"
-#include "cz/skia/src/core/SkFontDescriptor.h"
+#include "CZ/skia/modules/skparagraph/include/FontCollection.h"
+#include "CZ/skia/modules/skparagraph/include/TypefaceFontProvider.h"
+#include "CZ/skia/src/core/SkFontDescriptor.h"
 
 #include <string>
 

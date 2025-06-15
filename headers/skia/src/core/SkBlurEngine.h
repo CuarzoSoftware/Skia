@@ -8,11 +8,11 @@
 #ifndef SkBlurEngine_DEFINED
 #define SkBlurEngine_DEFINED
 
-#include "cz/skia/core/SkM44.h"  // IWYU pragma: keep
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/private/base/SkFloatingPoint.h"
+#include "CZ/skia/core/SkM44.h"  // IWYU pragma: keep
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/private/base/SkFloatingPoint.h"
 
 #include <algorithm>
 #include <array>

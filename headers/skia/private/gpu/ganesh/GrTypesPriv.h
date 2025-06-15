@@ -8,16 +8,16 @@
 #ifndef GrTypesPriv_DEFINED
 #define GrTypesPriv_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkColorType.h"
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkPathTypes.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkMacros.h"
-#include "cz/skia/private/base/SkTypeTraits.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkColorType.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkPathTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkMacros.h"
+#include "CZ/skia/private/base/SkTypeTraits.h"
 
 #include <cstddef>
 #include <cstdint>

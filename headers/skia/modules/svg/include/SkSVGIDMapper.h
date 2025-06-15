@@ -8,8 +8,8 @@
 #ifndef SkSVGIDMapper_DEFINED
 #define SkSVGIDMapper_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/src/core/SkTHash.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/src/core/SkTHash.h"
 
 class SkString;
 class SkSVGNode;

@@ -8,11 +8,11 @@
 #ifndef SkBlurMaskFilterImpl_DEFINED
 #define SkBlurMaskFilterImpl_DEFINED
 
-#include "cz/skia/core/SkFlattenable.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/src/core/SkMask.h"
-#include "cz/skia/src/core/SkMaskFilterBase.h"
+#include "CZ/skia/core/SkFlattenable.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/src/core/SkMask.h"
+#include "CZ/skia/src/core/SkMaskFilterBase.h"
 
 #include <optional>
 #include <utility>

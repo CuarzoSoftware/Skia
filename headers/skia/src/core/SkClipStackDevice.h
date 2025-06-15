@@ -8,10 +8,10 @@
 #ifndef SkClipStackDevice_DEFINED
 #define SkClipStackDevice_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/src/core/SkClipStack.h"
-#include "cz/skia/src/core/SkDevice.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/src/core/SkClipStack.h"
+#include "CZ/skia/src/core/SkDevice.h"
 
 #include <cstdint>
 

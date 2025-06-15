@@ -8,8 +8,8 @@
 #ifndef SkDrawProcs_DEFINED
 #define SkDrawProcs_DEFINED
 
-#include "cz/skia/core/SkPaint.h"
-#include "cz/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkScalar.h"
 class SkMatrix;
 
 bool SkDrawTreatAAStrokeAsHairline(SkScalar strokeWidth, const SkMatrix&,

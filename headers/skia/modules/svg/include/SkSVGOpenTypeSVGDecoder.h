@@ -8,11 +8,11 @@
 #ifndef SkSVGOpenTypeSVGDecoder_DEFINED
 #define SkSVGOpenTypeSVGDecoder_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkOpenTypeSVGDecoder.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkOpenTypeSVGDecoder.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstddef>
 #include <cstdint>

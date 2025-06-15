@@ -8,7 +8,7 @@
 #ifndef SkVertState_DEFINED
 #define SkVertState_DEFINED
 
-#include "cz/skia/core/SkVertices.h"
+#include "CZ/skia/core/SkVertices.h"
 
 #include <cstdint>
 

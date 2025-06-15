@@ -8,8 +8,8 @@
 #ifndef SkBitmapCache_DEFINED
 #define SkBitmapCache_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/private/base/SkAssert.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/private/base/SkAssert.h"
 
 #include <cstdint>
 #include <memory>

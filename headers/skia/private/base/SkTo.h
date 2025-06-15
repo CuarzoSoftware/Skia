@@ -7,8 +7,8 @@
 #ifndef SkTo_DEFINED
 #define SkTo_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkTFitsIn.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkTFitsIn.h"
 
 #include <cstddef>
 #include <cstdint>

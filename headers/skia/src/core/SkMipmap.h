@@ -8,12 +8,12 @@
 #ifndef SkMipmap_DEFINED
 #define SkMipmap_DEFINED
 
-#include "cz/skia/core/SkPixmap.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/src/core/SkCachedData.h"
-#include "cz/skia/src/core/SkImageInfoPriv.h"
-#include "cz/skia/src/shaders/SkShaderBase.h"
+#include "CZ/skia/core/SkPixmap.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/src/core/SkCachedData.h"
+#include "CZ/skia/src/core/SkImageInfoPriv.h"
+#include "CZ/skia/src/shaders/SkShaderBase.h"
 #include <memory>
 
 class SkBitmap;

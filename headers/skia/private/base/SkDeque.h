@@ -10,7 +10,7 @@
 #ifndef SkDeque_DEFINED
 #define SkDeque_DEFINED
 
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <cstddef>
 

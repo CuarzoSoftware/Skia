@@ -8,8 +8,8 @@
 #ifndef SkShaderMaskFilter_DEFINED
 #define SkShaderMaskFilter_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
 
 class SkMaskFilter;
 class SkShader;

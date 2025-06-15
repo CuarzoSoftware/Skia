@@ -17,10 +17,10 @@
 // or invoke `bazel run //tools:generate_workarounds`
 // This is not rebuilt by default to avoid embedders having to have extra
 // build steps.
-#include "cz/skia/gpu/ganesh/GrDriverBugWorkaroundsAutogen.h"
+#include "CZ/skia/gpu/ganesh/GrDriverBugWorkaroundsAutogen.h"
 #endif
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstdint>
 #include <vector>

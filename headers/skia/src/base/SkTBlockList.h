@@ -8,10 +8,10 @@
 #ifndef SkTBlockList_DEFINED
 #define SkTBlockList_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkTo.h"
-#include "cz/skia/src/base/SkBlockAllocator.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkTo.h"
+#include "CZ/skia/src/base/SkBlockAllocator.h"
 
 #include <algorithm>
 #include <cstring>

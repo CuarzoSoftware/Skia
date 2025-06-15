@@ -8,9 +8,9 @@
 #ifndef SkImagePriv_DEFINED
 #define SkImagePriv_DEFINED
 
-#include "cz/skia/core/SkImage.h"
-#include "cz/skia/core/SkSurface.h"
-#include "cz/skia/core/SkTileMode.h"
+#include "CZ/skia/core/SkImage.h"
+#include "CZ/skia/core/SkSurface.h"
+#include "CZ/skia/core/SkTileMode.h"
 
 class SkPixelRef;
 

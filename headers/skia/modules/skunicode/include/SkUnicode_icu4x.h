@@ -8,7 +8,7 @@
 #ifndef SkUnicode_icu4x_DEFINED
 #define SkUnicode_icu4x_DEFINED
 
-#include "cz/skia/modules/skunicode/include/SkUnicode.h"
+#include "CZ/skia/modules/skunicode/include/SkUnicode.h"
 
 #include <memory>
 

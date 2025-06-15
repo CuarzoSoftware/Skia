@@ -8,8 +8,8 @@
 #ifndef SkEndian_DEFINED
 #define SkEndian_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkFeatures.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkFeatures.h"
 
 #include <cstdint>
 

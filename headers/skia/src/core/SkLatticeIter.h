@@ -8,12 +8,12 @@
 #ifndef SkLatticeIter_DEFINED
 #define SkLatticeIter_DEFINED
 
-#include "cz/skia/core/SkCanvas.h"
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkTArray.h"
+#include "CZ/skia/core/SkCanvas.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkTArray.h"
 
 class SkMatrix;
 

@@ -8,10 +8,10 @@
 #ifndef SkCompressedDataUtils_DEFINED
 #define SkCompressedDataUtils_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTextureCompressionType.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkTArray.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTextureCompressionType.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkTArray.h"
 
 #include <cstddef>
 

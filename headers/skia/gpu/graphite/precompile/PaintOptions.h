@@ -8,11 +8,11 @@
 #ifndef skgpu_graphite_precompile_PaintOptions_DEFINED
 #define skgpu_graphite_precompile_PaintOptions_DEFINED
 
-#include "cz/skia/core/SkBlendMode.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/private/base/SkTArray.h"
-#include "cz/skia/private/base/SkTDArray.h"
+#include "CZ/skia/core/SkBlendMode.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/private/base/SkTArray.h"
+#include "CZ/skia/private/base/SkTDArray.h"
 
 #include <functional>
 

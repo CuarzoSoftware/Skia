@@ -8,9 +8,9 @@
 #ifndef SkStreamPriv_DEFINED
 #define SkStreamPriv_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkStream.h"
-#include "cz/skia/src/base/SkEndian.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkStream.h"
+#include "CZ/skia/src/base/SkEndian.h"
 
 #include <cstdint>
 

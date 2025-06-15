@@ -8,18 +8,18 @@
 #ifndef SkRuntimeEffectPriv_DEFINED
 #define SkRuntimeEffectPriv_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/effects/SkRuntimeEffect.h"
-#include "cz/skia/private/SkSLSampleUsage.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkSpan_impl.h"
-#include "cz/skia/private/base/SkTArray.h"
-#include "cz/skia/src/core/SkEffectPriv.h"
-#include "cz/skia/src/core/SkKnownRuntimeEffects.h"
-#include "cz/skia/src/sksl/codegen/SkSLRasterPipelineBuilder.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/effects/SkRuntimeEffect.h"
+#include "CZ/skia/private/SkSLSampleUsage.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkSpan_impl.h"
+#include "CZ/skia/private/base/SkTArray.h"
+#include "CZ/skia/src/core/SkEffectPriv.h"
+#include "CZ/skia/src/core/SkKnownRuntimeEffects.h"
+#include "CZ/skia/src/sksl/codegen/SkSLRasterPipelineBuilder.h"
 
 #include <cstddef>
 #include <cstdint>
@@ -27,7 +27,7 @@
 #include <memory>
 #include <vector>
 
-#include "cz/skia/sksl/SkSLVersion.h"
+#include "CZ/skia/sksl/SkSLVersion.h"
 
 class SkArenaAlloc;
 class SkCapabilities;

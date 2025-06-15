@@ -8,8 +8,8 @@
 #ifndef SkFontMgr_mac_ct_DEFINED
 #define SkFontMgr_mac_ct_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #ifdef SK_BUILD_FOR_MAC
 #import <ApplicationServices/ApplicationServices.h>

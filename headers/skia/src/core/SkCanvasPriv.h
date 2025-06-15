@@ -8,13 +8,13 @@
 #ifndef SkCanvasPriv_DEFINED
 #define SkCanvasPriv_DEFINED
 
-#include "cz/skia/core/SkCanvas.h"
-#include "cz/skia/core/SkPaint.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTileMode.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkNoncopyable.h"
+#include "CZ/skia/core/SkCanvas.h"
+#include "CZ/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTileMode.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkNoncopyable.h"
 
 #include <cstddef>
 

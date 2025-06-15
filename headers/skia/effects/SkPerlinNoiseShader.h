@@ -8,10 +8,10 @@
 #ifndef SkPerlinNoiseShader_DEFINED
 #define SkPerlinNoiseShader_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkShader.h" // IWYU pragma: keep
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkShader.h" // IWYU pragma: keep
+#include "CZ/skia/private/base/SkAPI.h"
 
 struct SkISize;
 

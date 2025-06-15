@@ -8,8 +8,8 @@
 #ifndef SkChecksum_DEFINED
 #define SkChecksum_DEFINED
 
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <cstddef>
 #include <cstdint>

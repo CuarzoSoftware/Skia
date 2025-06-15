@@ -4,16 +4,16 @@
 
 #include <optional>
 #include <vector>
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkFont.h"
-#include "cz/skia/core/SkFontMetrics.h"
-#include "cz/skia/core/SkFontStyle.h"
-#include "cz/skia/core/SkPaint.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/modules/skparagraph/include/DartTypes.h"
-#include "cz/skia/modules/skparagraph/include/FontArguments.h"
-#include "cz/skia/modules/skparagraph/include/ParagraphPainter.h"
-#include "cz/skia/modules/skparagraph/include/TextShadow.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkFont.h"
+#include "CZ/skia/core/SkFontMetrics.h"
+#include "CZ/skia/core/SkFontStyle.h"
+#include "CZ/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/modules/skparagraph/include/DartTypes.h"
+#include "CZ/skia/modules/skparagraph/include/FontArguments.h"
+#include "CZ/skia/modules/skparagraph/include/ParagraphPainter.h"
+#include "CZ/skia/modules/skparagraph/include/TextShadow.h"
 
 // TODO: Make it external so the other platforms (Android) could use it
 #define DEFAULT_FONT_FAMILY "sans-serif"

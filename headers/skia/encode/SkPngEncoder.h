@@ -8,12 +8,12 @@
 #ifndef SkPngEncoder_DEFINED
 #define SkPngEncoder_DEFINED
 
-#include "cz/skia/core/SkDataTable.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkDataTable.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 // TODO(kjlubick) update clients to directly include this
-#include "cz/skia/encode/SkEncoder.h"  // IWYU pragma: keep
+#include "CZ/skia/encode/SkEncoder.h"  // IWYU pragma: keep
 
 #include <memory>
 

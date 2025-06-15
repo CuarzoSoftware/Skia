@@ -7,11 +7,11 @@
 #ifndef SkEdgeBuilder_DEFINED
 #define SkEdgeBuilder_DEFINED
 
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkTDArray.h"
-#include "cz/skia/src/base/SkArenaAlloc.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkTDArray.h"
+#include "CZ/skia/src/base/SkArenaAlloc.h"
 
 #include <cstddef>
 

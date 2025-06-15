@@ -4,8 +4,8 @@
 #ifndef EventQueueInterface_DEFINED
 #define EventQueueInterface_DEFINED
 
-#include "cz/skia/modules/bentleyottmann/include/Point.h"
-#include "cz/skia/modules/bentleyottmann/include/Segment.h"
+#include "CZ/skia/modules/bentleyottmann/include/Point.h"
+#include "CZ/skia/modules/bentleyottmann/include/Segment.h"
 
 #include <set>
 

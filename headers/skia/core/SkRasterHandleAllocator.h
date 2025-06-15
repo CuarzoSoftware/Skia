@@ -8,7 +8,7 @@
 #ifndef SkRasterHandleAllocator_DEFINED
 #define SkRasterHandleAllocator_DEFINED
 
-#include "cz/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkImageInfo.h"
 
 class SkBitmap;
 class SkCanvas;

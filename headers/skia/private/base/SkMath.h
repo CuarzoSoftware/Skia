@@ -8,8 +8,8 @@
 #ifndef SkMath_DEFINED
 #define SkMath_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkCPUTypes.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkCPUTypes.h"
 
 #include <cstdint>
 #include <climits>

@@ -4,8 +4,8 @@
 #ifndef Myers_DEFINED
 #define Myers_DEFINED
 
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/private/base/SkAssert.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/private/base/SkAssert.h"
 
 #include <algorithm>
 #include <cstddef>

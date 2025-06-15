@@ -9,9 +9,9 @@
 #ifndef SkScan_DEFINED
 #define SkScan_DEFINED
 
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/private/base/SkFixed.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/private/base/SkFixed.h"
 
 class SkBlitter;
 class SkPath;

@@ -4,9 +4,9 @@
 #ifndef Contour_DEFINED
 #define Contour_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkSpan_impl.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkSpan_impl.h"
 
 #include <limits.h>
 #include <cstddef>

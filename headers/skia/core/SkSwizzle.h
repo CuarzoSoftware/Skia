@@ -8,7 +8,7 @@
 #ifndef SkSwizzle_DEFINED
 #define SkSwizzle_DEFINED
 
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <cstdint>
 

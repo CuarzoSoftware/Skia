@@ -8,12 +8,12 @@
 #ifndef SkImageGenerator_DEFINED
 #define SkImageGenerator_DEFINED
 
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/core/SkPixmap.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkYUVAPixmaps.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkPixmap.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkYUVAPixmaps.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <cstddef>
 #include <cstdint>

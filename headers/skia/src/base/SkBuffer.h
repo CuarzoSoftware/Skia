@@ -8,9 +8,9 @@
 #ifndef SkBuffer_DEFINED
 #define SkBuffer_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkNoncopyable.h"
-#include "cz/skia/src/base/SkSafeMath.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkNoncopyable.h"
+#include "CZ/skia/src/base/SkSafeMath.h"
 
 #include <cstddef>
 #include <cstdint>

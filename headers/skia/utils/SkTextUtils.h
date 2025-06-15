@@ -8,9 +8,9 @@
 #ifndef SkTextUtils_DEFINED
 #define SkTextUtils_DEFINED
 
-#include "cz/skia/core/SkFontTypes.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkFontTypes.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstddef>
 #include <cstring>

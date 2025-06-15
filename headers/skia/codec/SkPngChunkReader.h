@@ -8,8 +8,8 @@
 #ifndef SkPngChunkReader_DEFINED
 #define SkPngChunkReader_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
 
 /**
  *  SkPngChunkReader

@@ -8,13 +8,13 @@
 #ifndef SkColorPriv_DEFINED
 #define SkColorPriv_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkCPUTypes.h"
-#include "cz/skia/private/base/SkMath.h"
-#include "cz/skia/private/base/SkTPin.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkCPUTypes.h"
+#include "CZ/skia/private/base/SkMath.h"
+#include "CZ/skia/private/base/SkTPin.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 #include <algorithm>
 #include <cstdint>

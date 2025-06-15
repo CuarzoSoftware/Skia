@@ -8,14 +8,14 @@
 #ifndef SkPaint_DEFINED
 #define SkPaint_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkCPUTypes.h"
-#include "cz/skia/private/base/SkFloatingPoint.h"
-#include "cz/skia/private/base/SkTo.h"
-#include "cz/skia/private/base/SkTypeTraits.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkCPUTypes.h"
+#include "CZ/skia/private/base/SkFloatingPoint.h"
+#include "CZ/skia/private/base/SkTo.h"
+#include "CZ/skia/private/base/SkTypeTraits.h"
 
 #include <cstdint>
 #include <optional>

@@ -8,9 +8,9 @@
 #ifndef SkPathMeasurePriv_DEFINED
 #define SkPathMeasurePriv_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/src/core/SkGeometry.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/src/core/SkGeometry.h"
 
 // Used in the Segment struct defined in SkPathMeasure.h
 // It is used as a 2-bit field so if you add to this

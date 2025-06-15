@@ -8,8 +8,8 @@
 #ifndef SkValidationUtils_DEFINED
 #define SkValidationUtils_DEFINED
 
-#include "cz/skia/core/SkBitmap.h"
-#include "cz/skia/core/SkBlendMode.h"
+#include "CZ/skia/core/SkBitmap.h"
+#include "CZ/skia/core/SkBlendMode.h"
 
 /** Returns true if mode's value is in the SkBlendMode enum.
   */

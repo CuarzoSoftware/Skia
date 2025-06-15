@@ -8,8 +8,8 @@
 #ifndef SkRefCnt_DEFINED
 #define SkRefCnt_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkDebug.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkDebug.h"
 
 #include <atomic>
 #include <cstddef>

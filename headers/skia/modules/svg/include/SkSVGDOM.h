@@ -8,14 +8,14 @@
 #ifndef SkSVGDOM_DEFINED
 #define SkSVGDOM_DEFINED
 
-#include "cz/skia/core/SkFontMgr.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/modules/skresources/include/SkResources.h"
-#include "cz/skia/modules/skshaper/include/SkShaper_factory.h"
-#include "cz/skia/modules/svg/include/SkSVGIDMapper.h"
-#include "cz/skia/modules/svg/include/SkSVGSVG.h"
+#include "CZ/skia/core/SkFontMgr.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/modules/skresources/include/SkResources.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper_factory.h"
+#include "CZ/skia/modules/svg/include/SkSVGIDMapper.h"
+#include "CZ/skia/modules/svg/include/SkSVGSVG.h"
 
 class SkCanvas;
 class SkSVGNode;

@@ -8,8 +8,8 @@
 #ifndef SkRectMemcpy_DEFINED
 #define SkRectMemcpy_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkTemplates.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkTemplates.h"
 
 #include <cstring>
 

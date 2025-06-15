@@ -8,9 +8,9 @@
 #ifndef SkGlyphRunPainter_DEFINED
 #define SkGlyphRunPainter_DEFINED
 
-#include "cz/skia/core/SkSamplingOptions.h"
-#include "cz/skia/core/SkSurfaceProps.h"
-#include "cz/skia/src/base/SkZip.h"
+#include "CZ/skia/core/SkSamplingOptions.h"
+#include "CZ/skia/core/SkSurfaceProps.h"
+#include "CZ/skia/src/base/SkZip.h"
 
 #include <cstdint>
 

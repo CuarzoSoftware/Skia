@@ -8,8 +8,8 @@
 #ifndef SkFontMgr_empty_DEFINED
 #define SkFontMgr_empty_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
 
 class SkFontMgr;
 

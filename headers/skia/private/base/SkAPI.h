@@ -8,7 +8,7 @@
 #ifndef SkAPI_DEFINED
 #define SkAPI_DEFINED
 
-#include "cz/skia/private/base/SkLoadUserConfig.h" // IWYU pragma: keep
+#include "CZ/skia/private/base/SkLoadUserConfig.h" // IWYU pragma: keep
 
 // If SKIA_IMPLEMENTATION is defined as 1, that signals we are building Skia and should
 // export our symbols. If it is not set (or set to 0), then Skia is being used by a client

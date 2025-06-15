@@ -8,12 +8,12 @@
 #ifndef SkEdge_DEFINED
 #define SkEdge_DEFINED
 
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkFixed.h"
-#include "cz/skia/private/base/SkMath.h"
-#include "cz/skia/src/core/SkFDot6.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkFixed.h"
+#include "CZ/skia/private/base/SkMath.h"
+#include "CZ/skia/src/core/SkFDot6.h"
 
 #include <cstdint>
 #include <utility>

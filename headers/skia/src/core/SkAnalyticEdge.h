@@ -8,10 +8,10 @@
 #ifndef SkAnalyticEdge_DEFINED
 #define SkAnalyticEdge_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkFixed.h"
-#include "cz/skia/private/base/SkSafe32.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkFixed.h"
+#include "CZ/skia/private/base/SkSafe32.h"
 
 #include <cstdint>
 

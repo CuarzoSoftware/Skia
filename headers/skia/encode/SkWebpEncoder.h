@@ -8,10 +8,10 @@
 #ifndef SkWebpEncoder_DEFINED
 #define SkWebpEncoder_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSpan.h" // IWYU pragma: keep
-#include "cz/skia/encode/SkEncoder.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSpan.h" // IWYU pragma: keep
+#include "CZ/skia/encode/SkEncoder.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 class SkPixmap;
 class SkWStream;

@@ -8,8 +8,8 @@
 #ifndef SkFontStyle_DEFINED
 #define SkFontStyle_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkTPin.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkTPin.h"
 
 #include <cstdint>
 

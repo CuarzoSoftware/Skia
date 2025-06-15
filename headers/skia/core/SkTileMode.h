@@ -8,7 +8,7 @@
 #ifndef SkTileModes_DEFINED
 #define SkTileModes_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 enum class SkTileMode {
     /**

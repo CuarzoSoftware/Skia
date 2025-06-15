@@ -8,9 +8,9 @@
 #ifndef GrMtlBackendSemaphore_DEFINED
 #define GrMtlBackendSemaphore_DEFINED
 
-#include "cz/skia/gpu/ganesh/GrBackendSemaphore.h"
-#include "cz/skia/gpu/ganesh/mtl/GrMtlTypes.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/gpu/ganesh/GrBackendSemaphore.h"
+#include "CZ/skia/gpu/ganesh/mtl/GrMtlTypes.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 namespace GrBackendSemaphores {
 // It is the creator's responsibility to ref the MTLEvent passed in here, via __bridge_retained.

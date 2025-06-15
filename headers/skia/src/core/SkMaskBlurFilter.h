@@ -12,8 +12,8 @@
 #include <memory>
 #include <tuple>
 
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/src/core/SkMask.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/src/core/SkMask.h"
 
 // Implement a single channel Gaussian blur. The specifics for implementation are taken from:
 // https://drafts.fxtf.org/filters/#feGaussianBlurElement

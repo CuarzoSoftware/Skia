@@ -8,8 +8,8 @@
 #ifndef SkArc_DEFINED
 #define SkArc_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkScalar.h"
 
 // Represents an arc along an oval boundary, or a closed wedge of the oval.
 struct SkArc {

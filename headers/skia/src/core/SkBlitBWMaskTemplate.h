@@ -6,10 +6,10 @@
  */
 // This file does not have include guards because it is not meant to be used on its own.
 
-#include "cz/skia/core/SkPixmap.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/src/core/SkMask.h"
+#include "CZ/skia/core/SkPixmap.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/src/core/SkMask.h"
 
 #include <cstddef>
 #include <cstdint>

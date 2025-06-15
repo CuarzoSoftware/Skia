@@ -8,11 +8,11 @@
 #ifndef SkPathEffectBase_DEFINED
 #define SkPathEffectBase_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkPathEffect.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkSpan.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkPathEffect.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkSpan.h"
 
 class SkPath;
 class SkStrokeRec;

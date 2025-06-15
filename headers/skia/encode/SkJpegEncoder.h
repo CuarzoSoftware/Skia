@@ -8,9 +8,9 @@
 #ifndef SkJpegEncoder_DEFINED
 #define SkJpegEncoder_DEFINED
 
-#include "cz/skia/codec/SkEncodedOrigin.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/codec/SkEncodedOrigin.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <memory>
 #include <optional>

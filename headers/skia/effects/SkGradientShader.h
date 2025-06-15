@@ -8,14 +8,14 @@
 #ifndef SkGradientShader_DEFINED
 #define SkGradientShader_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkColorSpace.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkShader.h" // IWYU pragma: keep
-#include "cz/skia/core/SkTileMode.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkColorSpace.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkShader.h" // IWYU pragma: keep
+#include "CZ/skia/core/SkTileMode.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <cstdint>
 #include <utility>

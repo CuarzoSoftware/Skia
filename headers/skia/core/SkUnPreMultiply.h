@@ -8,9 +8,9 @@
 #ifndef SkUnPreMultiply_DEFINED
 #define SkUnPreMultiply_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkCPUTypes.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkCPUTypes.h"
 
 #include <cstdint>
 

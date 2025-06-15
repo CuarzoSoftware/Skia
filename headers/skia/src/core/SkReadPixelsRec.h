@@ -8,8 +8,8 @@
 #ifndef SkReadPixelsRec_DEFINED
 #define SkReadPixelsRec_DEFINED
 
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/core/SkPixmap.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkPixmap.h"
 
 #include <cstddef>
 

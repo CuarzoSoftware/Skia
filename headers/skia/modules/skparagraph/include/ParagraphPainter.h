@@ -2,8 +2,8 @@
 #ifndef ParagraphPainter_DEFINED
 #define ParagraphPainter_DEFINED
 
-#include "cz/skia/core/SkPaint.h"
-#include "cz/skia/core/SkTextBlob.h"
+#include "CZ/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkTextBlob.h"
 
 #include <optional>
 #include <variant>

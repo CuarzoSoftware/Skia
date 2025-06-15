@@ -8,10 +8,10 @@
 #ifndef GrMockOptions_DEFINED
 #define GrMockOptions_DEFINED
 
-#include "cz/skia/core/SkTextureCompressionType.h"
-#include "cz/skia/gpu/GpuTypes.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/gpu/ganesh/GrTypesPriv.h"
+#include "CZ/skia/core/SkTextureCompressionType.h"
+#include "CZ/skia/gpu/GpuTypes.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/gpu/ganesh/GrTypesPriv.h"
 
 #include <cstdint>
 

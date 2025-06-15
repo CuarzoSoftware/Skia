@@ -7,9 +7,9 @@
 #ifndef SkUnicode_hardcoded_DEFINED
 #define SkUnicode_hardcoded_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/modules/skunicode/include/SkUnicode.h"
-#include "cz/skia/src/base/SkUTF.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/modules/skunicode/include/SkUnicode.h"
+#include "CZ/skia/src/base/SkUTF.h"
 
 class SKUNICODE_API SkUnicodeHardCodedCharProperties : public SkUnicode {
 public:

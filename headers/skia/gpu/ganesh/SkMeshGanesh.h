@@ -8,9 +8,9 @@
 #ifndef SkMeshGanesh_DEFINED
 #define SkMeshGanesh_DEFINED
 
-#include "cz/skia/core/SkMesh.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkMesh.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <cstddef>
 

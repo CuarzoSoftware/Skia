@@ -8,11 +8,11 @@
 #ifndef SkMutex_DEFINED
 #define SkMutex_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkSemaphore.h"
-#include "cz/skia/private/base/SkThreadAnnotations.h"
-#include "cz/skia/private/base/SkThreadID.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkSemaphore.h"
+#include "CZ/skia/private/base/SkThreadAnnotations.h"
+#include "CZ/skia/private/base/SkThreadID.h"
 
 /**
  * class SkMutex

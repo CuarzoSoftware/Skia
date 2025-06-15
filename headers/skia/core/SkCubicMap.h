@@ -8,9 +8,9 @@
 #ifndef SkCubicMap_DEFINED
 #define SkCubicMap_DEFINED
 
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
 
 /**
  *  Fast evaluation of a cubic ease-in / ease-out curve. This is defined as a parametric cubic

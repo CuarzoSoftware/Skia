@@ -8,8 +8,8 @@
 #ifndef SkShaper_skunicode_DEFINED
 #define SkShaper_skunicode_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/modules/skshaper/include/SkShaper.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper.h"
 
 #include <cstddef>
 #include <cstdint>

@@ -8,7 +8,7 @@
 #ifndef SkMipmapBuilder_DEFINED
 #define SkMipmapBuilder_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkRefCnt.h"
 
 class SkImage;
 class SkMipmap;

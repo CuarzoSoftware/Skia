@@ -8,12 +8,12 @@
 #ifndef SkAutoBlitterChoose_DEFINED
 #define SkAutoBlitterChoose_DEFINED
 
-#include "cz/skia/private/base/SkMacros.h"
-#include "cz/skia/src/base/SkArenaAlloc.h"
-#include "cz/skia/src/core/SkBlitter.h"
-#include "cz/skia/src/core/SkDrawBase.h"
-#include "cz/skia/src/core/SkRasterClip.h"
-#include "cz/skia/src/core/SkSurfacePriv.h"
+#include "CZ/skia/private/base/SkMacros.h"
+#include "CZ/skia/src/base/SkArenaAlloc.h"
+#include "CZ/skia/src/core/SkBlitter.h"
+#include "CZ/skia/src/core/SkDrawBase.h"
+#include "CZ/skia/src/core/SkRasterClip.h"
+#include "CZ/skia/src/core/SkSurfacePriv.h"
 
 class SkMatrix;
 class SkPaint;

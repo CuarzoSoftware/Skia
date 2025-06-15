@@ -8,7 +8,7 @@
 #ifndef SkSVGRectPriv_DEFINED
 #define SkSVGRectPriv_DEFINED
 
-#include "cz/skia/src/base/SkTLazy.h"  // IWYU pragma: keep
+#include "CZ/skia/src/base/SkTLazy.h"  // IWYU pragma: keep
 
 #include <tuple>
 

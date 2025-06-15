@@ -8,8 +8,8 @@
 #ifndef SkIPoint16_DEFINED
 #define SkIPoint16_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 /** \struct SkIPoint16
  SkIPoint16 holds two 16 bit integer coordinates.

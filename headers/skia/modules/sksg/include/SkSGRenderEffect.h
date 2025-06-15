@@ -8,19 +8,19 @@
 #ifndef SkSGRenderEffect_DEFINED
 #define SkSGRenderEffect_DEFINED
 
-#include "cz/skia/core/SkBlendMode.h"
-#include "cz/skia/core/SkBlender.h"
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkImageFilter.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkShader.h"
-#include "cz/skia/core/SkTileMode.h"
-#include "cz/skia/effects/SkImageFilters.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/modules/sksg/include/SkSGEffectNode.h"
-#include "cz/skia/modules/sksg/include/SkSGNode.h"
+#include "CZ/skia/core/SkBlendMode.h"
+#include "CZ/skia/core/SkBlender.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkImageFilter.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkShader.h"
+#include "CZ/skia/core/SkTileMode.h"
+#include "CZ/skia/effects/SkImageFilters.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/modules/sksg/include/SkSGEffectNode.h"
+#include "CZ/skia/modules/sksg/include/SkSGNode.h"
 
 #include <optional>
 

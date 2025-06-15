@@ -7,4 +7,4 @@
 
 // DEPRECRATED: MtlGraphiteTypesUtils.h will be removed in the future, please include
 // MtlGraphiteTypes_cpp.h
-#include "cz/skia/gpu/graphite/mtl/MtlGraphiteTypes_cpp.h"
+#include "CZ/skia/gpu/graphite/mtl/MtlGraphiteTypes_cpp.h"

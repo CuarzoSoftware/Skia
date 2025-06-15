@@ -62,7 +62,7 @@ pushd Skia
 
 %files devel
 %doc Skia/README.md
-%{_includedir}/cz/skia
+%{_includedir}/CZ/skia
 %{_libdir}/libcz-skia.so
 %{_libdir}/pkgconfig/cz-skia.pc
 

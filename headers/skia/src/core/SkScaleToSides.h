@@ -8,8 +8,8 @@
 #ifndef SkScaleToSides_DEFINED
 #define SkScaleToSides_DEFINED
 
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cmath>
 #include <utility>

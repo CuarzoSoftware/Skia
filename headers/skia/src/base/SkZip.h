@@ -8,9 +8,9 @@
 #ifndef SkZip_DEFINED
 #define SkZip_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkSpan_impl.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkSpan_impl.h"
 
 #include <algorithm>
 #include <cstddef>

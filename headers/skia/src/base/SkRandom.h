@@ -8,9 +8,9 @@
 #ifndef SkRandom_DEFINED
 #define SkRandom_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkFixed.h"
-#include "cz/skia/src/base/SkFloatBits.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkFixed.h"
+#include "CZ/skia/src/base/SkFloatBits.h"
 
 #include <cstdint>
 

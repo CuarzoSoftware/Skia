@@ -8,9 +8,9 @@
 #ifndef SkPixmapUtils_DEFINED
 #define SkPixmapUtils_DEFINED
 
-#include "cz/skia/codec/SkEncodedOrigin.h"
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/codec/SkEncodedOrigin.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 class SkPixmap;
 

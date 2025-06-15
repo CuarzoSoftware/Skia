@@ -8,7 +8,7 @@
 #ifndef SkCpu_DEFINED
 #define SkCpu_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstdint>
 

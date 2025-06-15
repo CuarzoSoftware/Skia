@@ -8,15 +8,15 @@
 #ifndef SkSGGeometryEffect_DEFINED
 #define SkSGGeometryEffect_DEFINED
 
-#include "cz/skia/core/SkPaint.h"
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/effects/SkTrimPathEffect.h"
-#include "cz/skia/modules/sksg/include/SkSGGeometryNode.h"
-#include "cz/skia/modules/sksg/include/SkSGNode.h"
-#include "cz/skia/modules/sksg/include/SkSGTransform.h"
+#include "CZ/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/effects/SkTrimPathEffect.h"
+#include "CZ/skia/modules/sksg/include/SkSGGeometryNode.h"
+#include "CZ/skia/modules/sksg/include/SkSGNode.h"
+#include "CZ/skia/modules/sksg/include/SkSGTransform.h"
 
 #include <utility>
 #include <vector>

@@ -11,16 +11,16 @@
 // All of these files should be independent of things users can set via the user config file.
 // They should also be able to be included in any order.
 // IWYU pragma: begin_exports
-#include "cz/skia/private/base/SkFeatures.h"
+#include "CZ/skia/private/base/SkFeatures.h"
 
 // Load and verify defines from the user config file.
-#include "cz/skia/private/base/SkLoadUserConfig.h"
+#include "CZ/skia/private/base/SkLoadUserConfig.h"
 
 // Any includes or defines below can be configured by the user config file.
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkAttributes.h"
-#include "cz/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkAttributes.h"
+#include "CZ/skia/private/base/SkDebug.h"
 // IWYU pragma: end_exports
 
 #include <cstdint>

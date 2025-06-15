@@ -8,9 +8,9 @@
 #ifndef SkStringUtils_DEFINED
 #define SkStringUtils_DEFINED
 
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/private/base/SkTArray.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/private/base/SkTArray.h"
 
 #include <cstddef>
 #include <cstdint>

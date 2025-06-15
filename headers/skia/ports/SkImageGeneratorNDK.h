@@ -8,11 +8,11 @@
 #ifndef SkImageGeneratorNDK_DEFINED
 #define SkImageGeneratorNDK_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 #ifdef SK_ENABLE_NDK_IMAGES
 
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkImageGenerator.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkImageGenerator.h"
 
 #include <memory>
 

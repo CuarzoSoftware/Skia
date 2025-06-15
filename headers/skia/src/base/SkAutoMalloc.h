@@ -8,10 +8,10 @@
 #ifndef SkAutoMalloc_DEFINED
 #define SkAutoMalloc_DEFINED
 
-#include "cz/skia/private/base/SkAlign.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkMalloc.h"
-#include "cz/skia/private/base/SkNoncopyable.h"
+#include "CZ/skia/private/base/SkAlign.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkMalloc.h"
+#include "CZ/skia/private/base/SkNoncopyable.h"
 
 #include <cstddef>
 #include <cstdint>

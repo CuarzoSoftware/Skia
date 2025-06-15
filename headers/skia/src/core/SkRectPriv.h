@@ -8,9 +8,9 @@
 #ifndef SkRectPriv_DEFINED
 #define SkRectPriv_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/src/base/SkMathPriv.h"
-#include "cz/skia/src/base/SkVx.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/src/base/SkMathPriv.h"
+#include "CZ/skia/src/base/SkVx.h"
 
 class SkM44;
 class SkMatrix;

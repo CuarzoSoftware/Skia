@@ -8,7 +8,7 @@
 #ifndef SkSLTypeShared_DEFINED
 #define SkSLTypeShared_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 /**
  * Types of shader-language-specific boxed variables we can create.

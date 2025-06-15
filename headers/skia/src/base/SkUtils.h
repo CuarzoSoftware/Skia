@@ -8,7 +8,7 @@
 #ifndef SkUtils_DEFINED
 #define SkUtils_DEFINED
 
-#include "cz/skia/private/base/SkAttributes.h"
+#include "CZ/skia/private/base/SkAttributes.h"
 
 #include <cstring>
 #include <type_traits> // is_trivially_copyable

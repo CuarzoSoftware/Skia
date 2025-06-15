@@ -7,11 +7,11 @@
 #include <string>
 #include <tuple>
 #include <vector>
-#include "cz/skia/modules/skparagraph/include/FontCollection.h"
-#include "cz/skia/modules/skparagraph/include/Paragraph.h"
-#include "cz/skia/modules/skparagraph/include/ParagraphStyle.h"
-#include "cz/skia/modules/skparagraph/include/TextStyle.h"
-#include "cz/skia/modules/skunicode/include/SkUnicode.h"
+#include "CZ/skia/modules/skparagraph/include/FontCollection.h"
+#include "CZ/skia/modules/skparagraph/include/Paragraph.h"
+#include "CZ/skia/modules/skparagraph/include/ParagraphStyle.h"
+#include "CZ/skia/modules/skparagraph/include/TextStyle.h"
+#include "CZ/skia/modules/skunicode/include/SkUnicode.h"
 
 namespace skia {
 namespace textlayout {

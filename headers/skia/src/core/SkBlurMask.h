@@ -8,10 +8,10 @@
 #ifndef SkBlurMask_DEFINED
 #define SkBlurMask_DEFINED
 
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/src/core/SkMask.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/src/core/SkMask.h"
 
 #include <cstdint>
 

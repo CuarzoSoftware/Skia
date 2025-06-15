@@ -8,7 +8,7 @@
 #ifndef SkTraceMemoryDump_DEFINED
 #define SkTraceMemoryDump_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 class SkDiscardableMemory;
 

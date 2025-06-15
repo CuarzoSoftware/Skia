@@ -8,17 +8,17 @@
 #ifndef SkImageFilters_DEFINED
 #define SkImageFilters_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkColorSpace.h"
-#include "cz/skia/core/SkImage.h"
-#include "cz/skia/core/SkImageFilter.h"
-#include "cz/skia/core/SkPicture.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkShader.h"
-#include "cz/skia/core/SkTileMode.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkColorSpace.h"
+#include "CZ/skia/core/SkImage.h"
+#include "CZ/skia/core/SkImageFilter.h"
+#include "CZ/skia/core/SkPicture.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkShader.h"
+#include "CZ/skia/core/SkTileMode.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstddef>
 #include <optional>

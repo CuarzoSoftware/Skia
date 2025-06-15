@@ -8,7 +8,7 @@
 #ifndef SkTFixedArray_DEFINED
 #define SkTFixedArray_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkAssert.h"
 
 #include <cstdint>
 #include <cstring>

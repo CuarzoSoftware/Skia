@@ -8,8 +8,8 @@
 #ifndef SkBlenderBase_DEFINED
 #define SkBlenderBase_DEFINED
 
-#include "cz/skia/core/SkBlender.h"
-#include "cz/skia/src/base/SkArenaAlloc.h"
+#include "CZ/skia/core/SkBlender.h"
+#include "CZ/skia/src/base/SkArenaAlloc.h"
 
 #include <memory>
 #include <optional>

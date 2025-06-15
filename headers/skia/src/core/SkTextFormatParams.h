@@ -7,8 +7,8 @@
 #ifndef SkTextFormatParams_DEFINES
 #define SkTextFormatParams_DEFINES
 
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <iterator>
 

@@ -8,11 +8,11 @@
 #ifndef SkColorSpace_DEFINED
 #define SkColorSpace_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkFixed.h"
-#include "cz/skia/private/base/SkOnce.h"
-#include "cz/skia/modules/skcms/skcms.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkFixed.h"
+#include "CZ/skia/private/base/SkOnce.h"
+#include "CZ/skia/modules/skcms/skcms.h"
 
 #include <cstddef>
 #include <cstdint>

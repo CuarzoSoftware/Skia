@@ -9,9 +9,9 @@
 #ifndef SkPtrSet_DEFINED
 #define SkPtrSet_DEFINED
 
-#include "cz/skia/core/SkFlattenable.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkTDArray.h"
+#include "CZ/skia/core/SkFlattenable.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkTDArray.h"
 
 #include <cstdint>
 

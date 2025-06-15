@@ -8,8 +8,8 @@
 #ifndef SkBlendModeBlender_DEFINED
 #define SkBlendModeBlender_DEFINED
 
-#include "cz/skia/core/SkFlattenable.h"
-#include "cz/skia/src/core/SkBlenderBase.h"
+#include "CZ/skia/core/SkFlattenable.h"
+#include "CZ/skia/src/core/SkBlenderBase.h"
 
 #include <optional>
 

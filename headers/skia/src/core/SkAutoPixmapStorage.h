@@ -8,9 +8,9 @@
 #ifndef SkAutoPixmapStorage_DEFINED
 #define SkAutoPixmapStorage_DEFINED
 
-#include "cz/skia/core/SkPixmap.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkMalloc.h"
+#include "CZ/skia/core/SkPixmap.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkMalloc.h"
 
 #include <cstddef>
 

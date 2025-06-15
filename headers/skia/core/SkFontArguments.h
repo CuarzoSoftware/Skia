@@ -8,9 +8,9 @@
 #ifndef SkFontArguments_DEFINED
 #define SkFontArguments_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkFourByteTag.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkFourByteTag.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstdint>
 

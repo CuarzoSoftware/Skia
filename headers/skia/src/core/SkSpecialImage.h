@@ -8,13 +8,13 @@
 #ifndef SkSpecialImage_DEFINED
 #define SkSpecialImage_DEFINED
 
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSamplingOptions.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/core/SkSurfaceProps.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSamplingOptions.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/core/SkSurfaceProps.h"
 
 #include <cstddef>
 #include <cstdint>

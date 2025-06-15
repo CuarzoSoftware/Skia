@@ -7,8 +7,8 @@
 #ifndef GrMtlBackendSurface_DEFINED
 #define GrMtlBackendSurface_DEFINED
 
-#include "cz/skia/gpu/ganesh/mtl/GrMtlTypes.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/gpu/ganesh/mtl/GrMtlTypes.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <string_view>
 

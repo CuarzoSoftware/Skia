@@ -8,8 +8,8 @@
 #ifndef skgpu_graphite_MtlBackendContext_DEFINED
 #define skgpu_graphite_MtlBackendContext_DEFINED
 
-#include "cz/skia/ports/SkCFObject.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/ports/SkCFObject.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #import <CoreFoundation/CoreFoundation.h>
 

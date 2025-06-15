@@ -8,7 +8,7 @@
 #ifndef SkColorMatrixFilter_DEFINED
 #define SkColorMatrixFilter_DEFINED
 
-#include "cz/skia/core/SkColorFilter.h"
+#include "CZ/skia/core/SkColorFilter.h"
 
 // (DEPRECATED) This factory function is deprecated. Please use the one in
 // SkColorFilters (i.e., Lighting).

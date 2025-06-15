@@ -8,14 +8,14 @@
 #ifndef SkImageGeneratorWIC_DEFINED
 #define SkImageGeneratorWIC_DEFINED
 
-#include "cz/skia/private/base/SkFeatures.h"
+#include "CZ/skia/private/base/SkFeatures.h"
 
 #if defined(SK_BUILD_FOR_WIN)
 
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkImageGenerator.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkImageGenerator.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <memory>
 

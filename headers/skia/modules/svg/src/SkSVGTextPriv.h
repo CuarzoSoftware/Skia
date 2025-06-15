@@ -8,17 +8,17 @@
 #ifndef SkSVGTextPriv_DEFINED
 #define SkSVGTextPriv_DEFINED
 
-#include "cz/skia/core/SkContourMeasure.h"
-#include "cz/skia/core/SkFont.h"
-#include "cz/skia/core/SkMatrix.h"
-#include "cz/skia/core/SkPaint.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkTArray.h"
-#include "cz/skia/private/base/SkTo.h"
-#include "cz/skia/modules/skshaper/include/SkShaper.h"
-#include "cz/skia/src/base/SkTLazy.h"
+#include "CZ/skia/core/SkContourMeasure.h"
+#include "CZ/skia/core/SkFont.h"
+#include "CZ/skia/core/SkMatrix.h"
+#include "CZ/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkTArray.h"
+#include "CZ/skia/private/base/SkTo.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper.h"
+#include "CZ/skia/src/base/SkTLazy.h"
 
 #include <cstddef>
 #include <cstdint>

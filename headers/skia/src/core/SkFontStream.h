@@ -8,7 +8,7 @@
 #ifndef SkFontStream_DEFINED
 #define SkFontStream_DEFINED
 
-#include "cz/skia/core/SkTypeface.h"
+#include "CZ/skia/core/SkTypeface.h"
 
 #include <cstddef>
 

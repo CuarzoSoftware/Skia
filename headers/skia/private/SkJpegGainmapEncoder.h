@@ -8,7 +8,7 @@
 #ifndef SkJpegGainmapEncoder_DEFINED
 #define SkJpegGainmapEncoder_DEFINED
 
-#include "cz/skia/encode/SkJpegEncoder.h"
+#include "CZ/skia/encode/SkJpegEncoder.h"
 
 class SkPixmap;
 class SkWStream;

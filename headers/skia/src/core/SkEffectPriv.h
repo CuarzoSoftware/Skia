@@ -8,8 +8,8 @@
 #ifndef SkEffectPriv_DEFINED
 #define SkEffectPriv_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkColorType.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkColorType.h"
 
 class SkArenaAlloc;
 class SkColorSpace;

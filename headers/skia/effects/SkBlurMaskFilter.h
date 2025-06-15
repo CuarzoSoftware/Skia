@@ -9,10 +9,10 @@
 #define SkBlurMaskFilter_DEFINED
 
 // we include this since our callers will need to at least be able to ref/unref
-#include "cz/skia/core/SkBlurTypes.h"
-#include "cz/skia/core/SkMaskFilter.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkBlurTypes.h"
+#include "CZ/skia/core/SkMaskFilter.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkScalar.h"
 
 class SkRRect;
 

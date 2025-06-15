@@ -6,4 +6,4 @@
  */
 
 // DEPRECRATED: DawnTypes.h will be removed in the future, please include DawnGraphiteTypes.h
-#include "cz/skia/gpu/graphite/dawn/DawnGraphiteTypes.h"
+#include "CZ/skia/gpu/graphite/dawn/DawnGraphiteTypes.h"

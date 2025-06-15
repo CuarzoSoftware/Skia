@@ -8,9 +8,9 @@
 #ifndef SkPoint_DEFINED
 #define SkPoint_DEFINED
 
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkFloatingPoint.h"
-#include "cz/skia/private/base/SkSafe32.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkFloatingPoint.h"
+#include "CZ/skia/private/base/SkSafe32.h"
 
 #include <cmath>
 #include <cstdint>

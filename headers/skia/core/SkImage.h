@@ -8,12 +8,12 @@
 #ifndef SkImage_DEFINED
 #define SkImage_DEFINED
 
-#include "cz/skia/core/SkAlphaType.h"
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkAlphaType.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <cstddef>
 #include <cstdint>

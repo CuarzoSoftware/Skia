@@ -8,7 +8,7 @@
 #ifndef SkColorSpaceXformSteps_DEFINED
 #define SkColorSpaceXformSteps_DEFINED
 
-#include "cz/skia/modules/skcms/skcms.h"
+#include "CZ/skia/modules/skcms/skcms.h"
 
 #include <cstdint>
 

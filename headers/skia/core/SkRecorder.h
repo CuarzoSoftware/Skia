@@ -7,7 +7,7 @@
 #ifndef SkRecorder_DEFINED
 #define SkRecorder_DEFINED
 
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 namespace skcpu {
 class Recorder;

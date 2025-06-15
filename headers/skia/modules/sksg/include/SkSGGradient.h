@@ -8,13 +8,13 @@
 #ifndef SkSGGradient_DEFINED
 #define SkSGGradient_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTileMode.h"
-#include "cz/skia/modules/sksg/include/SkSGNode.h"
-#include "cz/skia/modules/sksg/include/SkSGRenderEffect.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTileMode.h"
+#include "CZ/skia/modules/sksg/include/SkSGNode.h"
+#include "CZ/skia/modules/sksg/include/SkSGRenderEffect.h"
 
 #include <vector>
 

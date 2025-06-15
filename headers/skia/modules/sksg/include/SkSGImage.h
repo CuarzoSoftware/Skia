@@ -8,12 +8,12 @@
 #ifndef SkSGImage_DEFINED
 #define SkSGImage_DEFINED
 
-#include "cz/skia/core/SkImage.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSamplingOptions.h"
-#include "cz/skia/modules/sksg/include/SkSGNode.h"
-#include "cz/skia/modules/sksg/include/SkSGRenderNode.h"
+#include "CZ/skia/core/SkImage.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSamplingOptions.h"
+#include "CZ/skia/modules/sksg/include/SkSGNode.h"
+#include "CZ/skia/modules/sksg/include/SkSGRenderNode.h"
 
 #include <utility>
 

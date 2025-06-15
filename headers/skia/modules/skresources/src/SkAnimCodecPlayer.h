@@ -8,10 +8,10 @@
 #ifndef SkAnimCodecPlayer_DEFINED
 #define SkAnimCodecPlayer_DEFINED
 
-#include "cz/skia/codec/SkCodec.h"
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSize.h"
+#include "CZ/skia/codec/SkCodec.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSize.h"
 
 #include <cstdint>
 #include <memory>

@@ -4,7 +4,7 @@
 #ifndef Segment_DEFINED
 #define Segment_DEFINED
 
-#include "cz/skia/modules/bentleyottmann/include/Point.h"
+#include "CZ/skia/modules/bentleyottmann/include/Point.h"
 
 #include <cstdint>
 #include <optional>

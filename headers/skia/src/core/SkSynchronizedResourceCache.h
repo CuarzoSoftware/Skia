@@ -8,9 +8,9 @@
 #ifndef SkSynchronizedResourceCache_DEFINED
 #define SkSynchronizedResourceCache_DEFINED
 
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkMutex.h"
-#include "cz/skia/src/core/SkResourceCache.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkMutex.h"
+#include "CZ/skia/src/core/SkResourceCache.h"
 
 #include <cstddef>
 

@@ -8,11 +8,11 @@
 #ifndef skgpu_graphite_Image_DEFINED
 #define skgpu_graphite_Image_DEFINED
 
-#include "cz/skia/core/SkColorSpace.h"
-#include "cz/skia/core/SkImage.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/gpu/GpuTypes.h"
+#include "CZ/skia/core/SkColorSpace.h"
+#include "CZ/skia/core/SkImage.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/gpu/GpuTypes.h"
 
 #include <string_view>
 #include <tuple>

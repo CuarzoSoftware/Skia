@@ -8,8 +8,8 @@
 #ifndef SkUnicode_icu_DEFINED
 #define SkUnicode_icu_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/modules/skunicode/include/SkUnicode.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/modules/skunicode/include/SkUnicode.h"
 
 namespace SkUnicodes::ICU {
 SKUNICODE_API sk_sp<SkUnicode> Make();

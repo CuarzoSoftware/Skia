@@ -9,9 +9,9 @@
 #ifndef SkCubicClipper_DEFINED
 #define SkCubicClipper_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
 
 struct SkPoint;
 

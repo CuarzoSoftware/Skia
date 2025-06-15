@@ -7,4 +7,4 @@
 // SkPoint is part of the public API, but is also required by code in base. The following include
 // forwarding allows SkPoint to participate in the API and for use by code in base.
 
-#include "cz/skia/private/base/SkPoint_impl.h"  // IWYU pragma: export
+#include "CZ/skia/private/base/SkPoint_impl.h"  // IWYU pragma: export

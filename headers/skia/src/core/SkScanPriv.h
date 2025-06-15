@@ -8,9 +8,9 @@
 #ifndef SkScanPriv_DEFINED
 #define SkScanPriv_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/src/core/SkBlitter.h"
-#include "cz/skia/src/core/SkScan.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/src/core/SkBlitter.h"
+#include "CZ/skia/src/core/SkScan.h"
 
 // controls how much we super-sample (when we use that scan convertion)
 #define SK_SUPERSAMPLE_SHIFT    2

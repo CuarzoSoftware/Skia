@@ -9,11 +9,11 @@
 #ifndef SkQuadClipper_DEFINED
 #define SkQuadClipper_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/private/base/SkDebug.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/private/base/SkDebug.h"
 
 /** This class is initialized with a clip rectangle, and then can be fed quads,
     which must already be monotonic in Y.

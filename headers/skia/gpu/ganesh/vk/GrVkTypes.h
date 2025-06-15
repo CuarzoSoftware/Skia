@@ -9,8 +9,8 @@
 #ifndef GrVkTypes_DEFINED
 #define GrVkTypes_DEFINED
 
-#include "cz/skia/gpu/GpuTypes.h"
-#include "cz/skia/gpu/vk/VulkanTypes.h"
+#include "CZ/skia/gpu/GpuTypes.h"
+#include "CZ/skia/gpu/vk/VulkanTypes.h"
 
 /*
  * When wrapping a GrBackendTexture or GrBackendRendenderTarget, the fCurrentQueueFamily should

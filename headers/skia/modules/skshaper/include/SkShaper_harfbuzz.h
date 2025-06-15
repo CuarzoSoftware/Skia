@@ -8,10 +8,10 @@
 #ifndef SkShaper_harfbuzz_DEFINED
 #define SkShaper_harfbuzz_DEFINED
 
-#include "cz/skia/core/SkFourByteTag.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/modules/skshaper/include/SkShaper.h"
+#include "CZ/skia/core/SkFourByteTag.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/modules/skshaper/include/SkShaper.h"
 
 #include <cstddef>
 #include <memory>

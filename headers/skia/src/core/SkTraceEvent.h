@@ -10,9 +10,9 @@
 #ifndef SkTraceEvent_DEFINED
 #define SkTraceEvent_DEFINED
 
-#include "cz/skia/utils/SkEventTracer.h"
-#include "cz/skia/src/base/SkUtils.h"
-#include "cz/skia/src/core/SkTraceEventCommon.h" // IWYU pragma: export
+#include "CZ/skia/utils/SkEventTracer.h"
+#include "CZ/skia/src/base/SkUtils.h"
+#include "CZ/skia/src/core/SkTraceEventCommon.h" // IWYU pragma: export
 #include <atomic>
 
 #if defined(SK_ANDROID_FRAMEWORK_USE_PERFETTO)

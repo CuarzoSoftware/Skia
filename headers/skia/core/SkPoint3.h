@@ -8,9 +8,9 @@
 #ifndef SkPoint3_DEFINED
 #define SkPoint3_DEFINED
 
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkFloatingPoint.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkFloatingPoint.h"
 
 struct SK_API SkPoint3 {
     SkScalar fX, fY, fZ;

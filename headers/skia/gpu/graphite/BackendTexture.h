@@ -8,11 +8,11 @@
 #ifndef skgpu_graphite_BackendTexture_DEFINED
 #define skgpu_graphite_BackendTexture_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/gpu/graphite/GraphiteTypes.h"
-#include "cz/skia/gpu/graphite/TextureInfo.h"
-#include "cz/skia/private/base/SkAnySubclass.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/gpu/graphite/GraphiteTypes.h"
+#include "CZ/skia/gpu/graphite/TextureInfo.h"
+#include "CZ/skia/private/base/SkAnySubclass.h"
 
 namespace skgpu::graphite {
 

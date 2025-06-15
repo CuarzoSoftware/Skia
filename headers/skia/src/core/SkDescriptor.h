@@ -8,11 +8,11 @@
 #ifndef SkDescriptor_DEFINED
 #define SkDescriptor_DEFINED
 
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkNoncopyable.h"
-#include "cz/skia/src/core/SkScalerContext.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkNoncopyable.h"
+#include "CZ/skia/src/core/SkScalerContext.h"
 
 #include <cstddef>
 #include <cstdint>

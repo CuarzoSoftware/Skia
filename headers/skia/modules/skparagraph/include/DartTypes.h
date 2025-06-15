@@ -3,8 +3,8 @@
 #ifndef DartTypes_DEFINED
 #define DartTypes_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <algorithm>
 #include <iterator>

@@ -8,11 +8,11 @@
 #ifndef SkGeometry_DEFINED
 #define SkGeometry_DEFINED
 
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkFloatingPoint.h"
-#include "cz/skia/src/base/SkVx.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkFloatingPoint.h"
+#include "CZ/skia/src/base/SkVx.h"
 
 #include <cstring>
 
@@ -500,7 +500,7 @@ struct SkCubicCoeff {
 
 }  // namespace
 
-#include "cz/skia/private/base/SkTemplates.h"
+#include "CZ/skia/private/base/SkTemplates.h"
 
 /**
  *  Help class to allocate storage for approximating a conic with N quads.

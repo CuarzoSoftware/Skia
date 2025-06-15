@@ -10,9 +10,9 @@
 #ifndef SkParse_DEFINED
 #define SkParse_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstddef>
 #include <cstdint>

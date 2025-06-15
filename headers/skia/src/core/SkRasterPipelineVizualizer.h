@@ -7,8 +7,8 @@
 #ifndef SkRasterPipelineVizualizer_DEFINED
 #define SkRasterPipelineVizualizer_DEFINED
 
-#include "cz/skia/core/SkBitmap.h"
-#include "cz/skia/core/SkRefCnt.h"  // IWYU pragma: keep
+#include "CZ/skia/core/SkBitmap.h"
+#include "CZ/skia/core/SkRefCnt.h"  // IWYU pragma: keep
 
 #include <vector>
 

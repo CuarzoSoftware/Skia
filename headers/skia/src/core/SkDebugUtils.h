@@ -8,9 +8,9 @@
 #ifndef SkDebugUtils_DEFINED
 #define SkDebugUtils_DEFINED
 
-#include "cz/skia/core/SkTileMode.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
+#include "CZ/skia/core/SkTileMode.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
 
 #include <array>
 #include <cstdint>

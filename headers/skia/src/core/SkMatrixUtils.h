@@ -8,8 +8,8 @@
 #ifndef SkMatrixUtils_DEFINED
 #define SkMatrixUtils_DEFINED
 
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkSize.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkSize.h"
 
 class SkMatrix;
 struct SkSamplingOptions;

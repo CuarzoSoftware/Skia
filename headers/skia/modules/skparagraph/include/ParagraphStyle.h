@@ -2,11 +2,11 @@
 #ifndef ParagraphStyle_DEFINED
 #define ParagraphStyle_DEFINED
 
-#include "cz/skia/core/SkFontStyle.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/modules/skparagraph/include/DartTypes.h"
-#include "cz/skia/modules/skparagraph/include/TextStyle.h"
+#include "CZ/skia/core/SkFontStyle.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/modules/skparagraph/include/DartTypes.h"
+#include "CZ/skia/modules/skparagraph/include/TextStyle.h"
 
 #include <stddef.h>
 #include <algorithm>

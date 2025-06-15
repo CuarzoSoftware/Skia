@@ -8,9 +8,9 @@
 #ifndef SkLRUCache_DEFINED
 #define SkLRUCache_DEFINED
 
-#include "cz/skia/src/base/SkTInternalLList.h"
-#include "cz/skia/src/core/SkChecksum.h"
-#include "cz/skia/src/core/SkTHash.h"
+#include "CZ/skia/src/base/SkTInternalLList.h"
+#include "CZ/skia/src/core/SkChecksum.h"
+#include "CZ/skia/src/core/SkTHash.h"
 
 struct SkNoOpPurge {
     template <typename K, typename V>

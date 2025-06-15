@@ -8,9 +8,9 @@
 #ifndef SkSemaphore_DEFINED
 #define SkSemaphore_DEFINED
 
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkOnce.h"
-#include "cz/skia/private/base/SkThreadAnnotations.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkOnce.h"
+#include "CZ/skia/private/base/SkThreadAnnotations.h"
 
 #include <algorithm>
 #include <atomic>

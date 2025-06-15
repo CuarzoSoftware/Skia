@@ -9,14 +9,14 @@
 
 // This is needed as clients may override the target platform
 // using SkUserConfig
-#include "cz/skia/private/base/SkLoadUserConfig.h"
+#include "CZ/skia/private/base/SkLoadUserConfig.h"
 
 #if defined(SK_BUILD_FOR_MAC) || defined(SK_BUILD_FOR_IOS)
 
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkImageGenerator.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkImageGenerator.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <memory>
 

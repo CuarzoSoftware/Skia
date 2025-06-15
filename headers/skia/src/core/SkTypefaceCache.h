@@ -10,9 +10,9 @@
 #ifndef SkTypefaceCache_DEFINED
 #define SkTypefaceCache_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypeface.h"
-#include "cz/skia/private/base/SkTArray.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypeface.h"
+#include "CZ/skia/private/base/SkTArray.h"
 
 class SkTypefaceCache {
 public:

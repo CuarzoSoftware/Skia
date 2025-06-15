@@ -7,12 +7,12 @@
 #ifndef SkRuntimeBlender_DEFINED
 #define SkRuntimeBlender_DEFINED
 
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkFlattenable.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/effects/SkRuntimeEffect.h"
-#include "cz/skia/private/base/SkSpan_impl.h"
-#include "cz/skia/src/core/SkBlenderBase.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkFlattenable.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/effects/SkRuntimeEffect.h"
+#include "CZ/skia/private/base/SkSpan_impl.h"
+#include "CZ/skia/src/core/SkBlenderBase.h"
 
 #include <utility>
 #include <vector>

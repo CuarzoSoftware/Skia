@@ -4,10 +4,10 @@
 #ifndef EventQueue_DEFINED
 #define EventQueue_DEFINED
 
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/modules/bentleyottmann/include/EventQueueInterface.h"
-#include "cz/skia/modules/bentleyottmann/include/Point.h"
-#include "cz/skia/modules/bentleyottmann/include/Segment.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/modules/bentleyottmann/include/EventQueueInterface.h"
+#include "CZ/skia/modules/bentleyottmann/include/Point.h"
+#include "CZ/skia/modules/bentleyottmann/include/Segment.h"
 
 #include <optional>
 #include <set>

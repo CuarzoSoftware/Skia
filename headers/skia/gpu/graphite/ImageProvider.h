@@ -8,8 +8,8 @@
 #ifndef skgpu_graphite_ImageProvider_DEFINED
 #define skgpu_graphite_ImageProvider_DEFINED
 
-#include "cz/skia/core/SkImage.h"
-#include "cz/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkImage.h"
+#include "CZ/skia/core/SkRefCnt.h"
 
 namespace skgpu::graphite {
 

@@ -8,7 +8,7 @@
 #ifndef SkBlendMode_DEFINED
 #define SkBlendMode_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 /**
  *  Blends are operators that take in two colors (source, destination) and return a new color.

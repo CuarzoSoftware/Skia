@@ -8,8 +8,8 @@
 #ifndef SkPointPriv_DEFINED
 #define SkPointPriv_DEFINED
 
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRect.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRect.h"
 
 class SkPointPriv {
 public:

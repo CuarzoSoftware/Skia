@@ -8,15 +8,15 @@
 #ifndef SkSVGGradient_DEFINED
 #define SkSVGGradient_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkMatrix.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkTArray.h"
-#include "cz/skia/modules/svg/include/SkSVGHiddenContainer.h"
-#include "cz/skia/modules/svg/include/SkSVGNode.h"
-#include "cz/skia/modules/svg/include/SkSVGTypes.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkMatrix.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkTArray.h"
+#include "CZ/skia/modules/svg/include/SkSVGHiddenContainer.h"
+#include "CZ/skia/modules/svg/include/SkSVGNode.h"
+#include "CZ/skia/modules/svg/include/SkSVGTypes.h"
 
 class SkPaint;
 class SkSVGRenderContext;

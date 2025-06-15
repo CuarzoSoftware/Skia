@@ -2,11 +2,11 @@
 #ifndef Paragraph_DEFINED
 #define Paragraph_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/modules/skparagraph/include/FontCollection.h"
-#include "cz/skia/modules/skparagraph/include/Metrics.h"
-#include "cz/skia/modules/skparagraph/include/ParagraphStyle.h"
-#include "cz/skia/modules/skparagraph/include/TextStyle.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/modules/skparagraph/include/FontCollection.h"
+#include "CZ/skia/modules/skparagraph/include/Metrics.h"
+#include "CZ/skia/modules/skparagraph/include/ParagraphStyle.h"
+#include "CZ/skia/modules/skparagraph/include/TextStyle.h"
 #include <unordered_set>
 
 class SkCanvas;

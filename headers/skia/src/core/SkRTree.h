@@ -8,8 +8,8 @@
 #ifndef SkRTree_DEFINED
 #define SkRTree_DEFINED
 
-#include "cz/skia/core/SkBBHFactory.h"
-#include "cz/skia/core/SkRect.h"
+#include "CZ/skia/core/SkBBHFactory.h"
+#include "CZ/skia/core/SkRect.h"
 
 #include <cstddef>
 #include <cstdint>

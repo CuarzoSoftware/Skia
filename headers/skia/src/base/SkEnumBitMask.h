@@ -8,7 +8,7 @@
 #ifndef SkEnumBitMask_DEFINED
 #define SkEnumBitMask_DEFINED
 
-#include "cz/skia/private/base/SkAttributes.h"
+#include "CZ/skia/private/base/SkAttributes.h"
 
 /**
  * Wraps an enum that is used for flags, and enables masking with type safety. Example:

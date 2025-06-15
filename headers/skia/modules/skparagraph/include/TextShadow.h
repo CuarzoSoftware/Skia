@@ -2,8 +2,8 @@
 #ifndef TextShadow_DEFINED
 #define TextShadow_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkPoint.h"
 
 namespace skia {
 namespace textlayout {

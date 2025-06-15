@@ -8,9 +8,9 @@
 #ifndef SkMeshPriv_DEFINED
 #define SkMeshPriv_DEFINED
 
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkMesh.h"
-#include "cz/skia/src/core/SkSLTypeShared.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkMesh.h"
+#include "CZ/skia/src/core/SkSLTypeShared.h"
 
 struct SkMeshSpecificationPriv {
     using Varying   = SkMeshSpecification::Varying;

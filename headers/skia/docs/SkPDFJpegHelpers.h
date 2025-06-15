@@ -7,11 +7,11 @@
 #ifndef SkPDFJPEGHelpers_DEFINED
 #define SkPDFJPEGHelpers_DEFINED
 
-#include "cz/skia/codec/SkJpegDecoder.h"
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/docs/SkPDFDocument.h"
-#include "cz/skia/encode/SkJpegEncoder.h"
+#include "CZ/skia/codec/SkJpegDecoder.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/docs/SkPDFDocument.h"
+#include "CZ/skia/encode/SkJpegEncoder.h"
 
 class SkPixmap;
 class SkWStream;

@@ -8,7 +8,7 @@
 #ifndef SkColorFilterPriv_DEFINED
 #define SkColorFilterPriv_DEFINED
 
-#include "cz/skia/core/SkColorFilter.h"
+#include "CZ/skia/core/SkColorFilter.h"
 
 class SkColorSpace;
 struct skcms_Matrix3x3;

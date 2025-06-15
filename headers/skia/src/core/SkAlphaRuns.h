@@ -8,11 +8,11 @@
 #ifndef SkAlphaRuns_DEFINED
 #define SkAlphaRuns_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkCPUTypes.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkCPUTypes.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 #include <cstdint>
 

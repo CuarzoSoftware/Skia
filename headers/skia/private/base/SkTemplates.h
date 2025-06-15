@@ -8,12 +8,12 @@
 #ifndef SkTemplates_DEFINED
 #define SkTemplates_DEFINED
 
-#include "cz/skia/private/base/SkAlign.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkMalloc.h"
-#include "cz/skia/private/base/SkTLogic.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/private/base/SkAlign.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkMalloc.h"
+#include "CZ/skia/private/base/SkTLogic.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 #include <algorithm>
 #include <array>

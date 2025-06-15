@@ -8,10 +8,10 @@
 #ifndef SkSGMerge_DEFINED
 #define SkSGMerge_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/modules/sksg/include/SkSGGeometryNode.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/modules/sksg/include/SkSGGeometryNode.h"
 
 #include <utility>
 #include <vector>

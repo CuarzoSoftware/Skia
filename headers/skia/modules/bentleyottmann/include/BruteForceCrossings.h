@@ -4,7 +4,7 @@
 #ifndef QuadraticCrossings_DEFINED
 #define QuadraticCrossings_DEFINED
 
-#include "cz/skia/core/SkSpan.h"
+#include "CZ/skia/core/SkSpan.h"
 
 #include <optional>
 #include <vector>

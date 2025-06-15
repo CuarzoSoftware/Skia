@@ -8,9 +8,9 @@
 #ifndef SkImageInfoPriv_DEFINED
 #define SkImageInfoPriv_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkColorType.h"
-#include "cz/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkColorType.h"
+#include "CZ/skia/core/SkImageInfo.h"
 
 static inline uint32_t SkColorTypeChannelFlags(SkColorType ct) {
     switch (ct) {

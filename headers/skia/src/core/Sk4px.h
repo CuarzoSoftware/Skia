@@ -8,9 +8,9 @@
 #ifndef Sk4px_DEFINED
 #define Sk4px_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/src/base/SkVx.h"
-#include "cz/skia/src/core/SkColorData.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/src/base/SkVx.h"
+#include "CZ/skia/src/core/SkColorData.h"
 
 // 1, 2 or 4 SkPMColors, generally vectorized.
 class Sk4px {

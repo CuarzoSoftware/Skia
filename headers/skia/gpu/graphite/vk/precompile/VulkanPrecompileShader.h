@@ -8,7 +8,7 @@
 #ifndef skgpu_graphite_vk_precompile_PrecompileShader_DEFINED
 #define skgpu_graphite_vk_precompile_PrecompileShader_DEFINED
 
-#include "cz/skia/gpu/graphite/precompile/PrecompileShader.h"
+#include "CZ/skia/gpu/graphite/precompile/PrecompileShader.h"
 
 namespace skgpu {
     struct VulkanYcbcrConversionInfo;

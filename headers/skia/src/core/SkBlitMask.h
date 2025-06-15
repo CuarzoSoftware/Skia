@@ -8,7 +8,7 @@
 #ifndef SkBlitMask_DEFINED
 #define SkBlitMask_DEFINED
 
-#include "cz/skia/core/SkColor.h"
+#include "CZ/skia/core/SkColor.h"
 
 namespace SkOpts {
     // Optimized mask-blit routine

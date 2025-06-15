@@ -8,11 +8,11 @@
 #ifndef SkBBHFactory_DEFINED
 #define SkBBHFactory_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
 
 // TODO(kjlubick) fix client users and then make this a forward declare
-#include "cz/skia/core/SkRect.h"  // IWYU pragma: keep
+#include "CZ/skia/core/SkRect.h"  // IWYU pragma: keep
 
 #include <cstddef>
 #include <vector>

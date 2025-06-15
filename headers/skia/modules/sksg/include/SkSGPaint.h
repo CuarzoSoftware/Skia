@@ -8,13 +8,13 @@
 #ifndef SkSGPaint_DEFINED
 #define SkSGPaint_DEFINED
 
-#include "cz/skia/core/SkBlendMode.h"
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkPaint.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/modules/sksg/include/SkSGNode.h"
+#include "CZ/skia/core/SkBlendMode.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/modules/sksg/include/SkSGNode.h"
 
 class SkMatrix;
 

@@ -8,7 +8,7 @@
 #ifndef SkSurfacePriv_DEFINED
 #define SkSurfacePriv_DEFINED
 
-#include "cz/skia/core/SkSurfaceProps.h"
+#include "CZ/skia/core/SkSurfaceProps.h"
 
 struct SkImageInfo;
 

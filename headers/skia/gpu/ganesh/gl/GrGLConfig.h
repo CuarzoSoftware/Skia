@@ -8,7 +8,7 @@
 #ifndef GrGLConfig_DEFINED
 #define GrGLConfig_DEFINED
 
-#include "cz/skia/private/base/SkLoadUserConfig.h"
+#include "CZ/skia/private/base/SkLoadUserConfig.h"
 
 #if !defined(GR_GL_FUNCTION_TYPE)
     #if defined(SK_BUILD_FOR_WIN)

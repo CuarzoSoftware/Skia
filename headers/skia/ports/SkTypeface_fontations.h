@@ -8,10 +8,10 @@
 #ifndef SkTypeface_fontations_DEFINED
 #define SkTypeface_fontations_DEFINED
 
-#include "cz/skia/core/SkFontArguments.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypeface.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkFontArguments.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypeface.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <memory>
 

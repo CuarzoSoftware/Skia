@@ -8,8 +8,8 @@
 #ifndef SkYUVAInfoLocation_DEFINED
 #define SkYUVAInfoLocation_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkYUVAInfo.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkYUVAInfo.h"
 
 #include <algorithm>
 

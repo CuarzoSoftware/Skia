@@ -8,9 +8,9 @@
 #ifndef SkCapabilities_DEFINED
 #define SkCapabilities_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/sksl/SkSLVersion.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/sksl/SkSLVersion.h"
 
 namespace SkSL { struct ShaderCaps; }
 

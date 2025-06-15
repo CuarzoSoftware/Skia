@@ -8,11 +8,11 @@
 #ifndef SkTDPQueue_DEFINED
 #define SkTDPQueue_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkTDArray.h"
-#include "cz/skia/private/base/SkTo.h"
-#include "cz/skia/src/base/SkTSort.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkTDArray.h"
+#include "CZ/skia/private/base/SkTo.h"
+#include "CZ/skia/src/base/SkTSort.h"
 
 #include <utility>
 

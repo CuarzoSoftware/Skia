@@ -8,7 +8,7 @@
 #ifndef SkColorType_DEFINED
 #define SkColorType_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 /** \enum SkColorType
     Describes how pixel bits encode color. A pixel may be an alpha mask, a grayscale, RGB, or ARGB.

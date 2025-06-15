@@ -8,8 +8,8 @@
 #ifndef SkMaskCache_DEFINED
 #define SkMaskCache_DEFINED
 
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/core/SkSpan.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/core/SkSpan.h"
 
 class SkCachedData;
 class SkRRect;

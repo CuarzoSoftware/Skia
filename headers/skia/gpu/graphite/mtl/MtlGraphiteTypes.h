@@ -10,12 +10,12 @@
 
 #if __OBJC__  // <Metal/Metal.h> only works when compiled for Objective C
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
-#include "cz/skia/gpu/graphite/GraphiteTypes.h"
-#include "cz/skia/gpu/graphite/TextureInfo.h"
-#include "cz/skia/gpu/graphite/mtl/MtlGraphiteTypes_cpp.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/gpu/graphite/GraphiteTypes.h"
+#include "CZ/skia/gpu/graphite/TextureInfo.h"
+#include "CZ/skia/gpu/graphite/mtl/MtlGraphiteTypes_cpp.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #import <CoreFoundation/CoreFoundation.h>
 #import <Metal/Metal.h>

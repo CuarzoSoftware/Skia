@@ -9,8 +9,8 @@
 #define GrGLFunctions_DEFINED
 
 #include <cstring>
-#include "cz/skia/gpu/ganesh/gl/GrGLTypes.h"
-#include "cz/skia/private/base/SkTLogic.h"
+#include "CZ/skia/gpu/ganesh/gl/GrGLTypes.h"
+#include "CZ/skia/private/base/SkTLogic.h"
 
 
 extern "C" {

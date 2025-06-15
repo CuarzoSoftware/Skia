@@ -8,10 +8,10 @@
 #ifndef SkRegionPriv_DEFINED
 #define SkRegionPriv_DEFINED
 
-#include "cz/skia/core/SkRegion.h"
-#include "cz/skia/private/base/SkMalloc.h"
-#include "cz/skia/private/base/SkMath.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/core/SkRegion.h"
+#include "CZ/skia/private/base/SkMalloc.h"
+#include "CZ/skia/private/base/SkMath.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 #include <atomic>
 #include <functional>

@@ -8,10 +8,10 @@
 #ifndef skgpu_graphite_DawnTypes_DEFINED
 #define skgpu_graphite_DawnTypes_DEFINED
 
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/gpu/graphite/GraphiteTypes.h"
-#include "cz/skia/gpu/graphite/TextureInfo.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/gpu/graphite/GraphiteTypes.h"
+#include "CZ/skia/gpu/graphite/TextureInfo.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include "webgpu/webgpu_cpp.h"  // NO_G3_REWRITE
 

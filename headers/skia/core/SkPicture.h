@@ -8,10 +8,10 @@
 #ifndef SkPicture_DEFINED
 #define SkPicture_DEFINED
 
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkShader.h"  // IWYU pragma: keep
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkShader.h"  // IWYU pragma: keep
+#include "CZ/skia/core/SkTypes.h"
 
 #include <atomic>
 #include <cstddef>
@@ -27,7 +27,7 @@ struct SkDeserialProcs;
 struct SkSerialProcs;
 
 // TODO(kjlubick) Remove this after cleaning up clients
-#include "cz/skia/core/SkTileMode.h"  // IWYU pragma: keep
+#include "CZ/skia/core/SkTileMode.h"  // IWYU pragma: keep
 
 /** \class SkPicture
     SkPicture records drawing commands made to SkCanvas. The command stream may be

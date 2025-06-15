@@ -8,7 +8,7 @@
 #ifndef SkCanvasVirtualEnforcer_DEFINED
 #define SkCanvasVirtualEnforcer_DEFINED
 
-#include "cz/skia/core/SkCanvas.h"
+#include "CZ/skia/core/SkCanvas.h"
 
 // If you would ordinarily want to inherit from Base (eg SkCanvas, SkNWayCanvas), instead
 // inherit from SkCanvasVirtualEnforcer<Base>, which will make the build fail if you forget

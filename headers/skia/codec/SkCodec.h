@@ -8,18 +8,18 @@
 #ifndef SkCodec_DEFINED
 #define SkCodec_DEFINED
 
-#include "cz/skia/codec/SkEncodedOrigin.h"
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/core/SkPixmap.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/core/SkYUVAPixmaps.h"
-#include "cz/skia/private/SkEncodedInfo.h"
-#include "cz/skia/private/base/SkNoncopyable.h"
-#include "cz/skia/modules/skcms/skcms.h"
+#include "CZ/skia/codec/SkEncodedOrigin.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkPixmap.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkYUVAPixmaps.h"
+#include "CZ/skia/private/SkEncodedInfo.h"
+#include "CZ/skia/private/base/SkNoncopyable.h"
+#include "CZ/skia/modules/skcms/skcms.h"
 
 #include <cstddef>
 #include <functional>

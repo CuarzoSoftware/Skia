@@ -8,15 +8,15 @@
 #ifndef SkResources_DEFINED
 #define SkResources_DEFINED
 
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkMatrix.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSamplingOptions.h"
-#include "cz/skia/core/SkString.h"
-#include "cz/skia/core/SkTypeface.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkMutex.h"
-#include "cz/skia/src/core/SkTHash.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkMatrix.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSamplingOptions.h"
+#include "CZ/skia/core/SkString.h"
+#include "CZ/skia/core/SkTypeface.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkMutex.h"
+#include "CZ/skia/src/core/SkTHash.h"
 
 #include <memory>
 

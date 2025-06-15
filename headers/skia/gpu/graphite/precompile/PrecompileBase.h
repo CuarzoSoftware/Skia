@@ -8,8 +8,8 @@
 #ifndef skgpu_graphite_precompile_PrecompileBase_DEFINED
 #define skgpu_graphite_precompile_PrecompileBase_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSpan.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSpan.h"
 
 namespace skgpu::graphite {
 

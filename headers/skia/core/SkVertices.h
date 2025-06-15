@@ -8,11 +8,11 @@
 #ifndef SkVertices_DEFINED
 #define SkVertices_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <cstddef>
 #include <cstdint>

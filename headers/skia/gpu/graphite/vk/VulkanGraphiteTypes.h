@@ -8,10 +8,10 @@
 #ifndef skgpu_graphite_VulkanGraphiteTypes_DEFINED
 #define skgpu_graphite_VulkanGraphiteTypes_DEFINED
 
-#include "cz/skia/gpu/graphite/BackendTexture.h"
-#include "cz/skia/gpu/graphite/GraphiteTypes.h"
-#include "cz/skia/gpu/graphite/TextureInfo.h"
-#include "cz/skia/gpu/vk/VulkanTypes.h"
+#include "CZ/skia/gpu/graphite/BackendTexture.h"
+#include "CZ/skia/gpu/graphite/GraphiteTypes.h"
+#include "CZ/skia/gpu/graphite/TextureInfo.h"
+#include "CZ/skia/gpu/vk/VulkanTypes.h"
 
 class SkStream;
 class SkWStream;

@@ -8,9 +8,9 @@
 #ifndef SkBlendModePriv_DEFINED
 #define SkBlendModePriv_DEFINED
 
-#include "cz/skia/core/SkBlendMode.h"
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/src/core/SkColorData.h"
+#include "CZ/skia/core/SkBlendMode.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/src/core/SkColorData.h"
 
 class SkRasterPipeline;
 class SkPaint;

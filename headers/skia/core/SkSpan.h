@@ -9,5 +9,5 @@
 // Thus, we have a public file that clients can include. This file defers to the private copy
 // so we do not have a dependency cycle from our "base" files to our "core" files.
 
-#include "cz/skia/private/base/SkSpan_impl.h" // IWYU pragma: export
+#include "CZ/skia/private/base/SkSpan_impl.h" // IWYU pragma: export
 

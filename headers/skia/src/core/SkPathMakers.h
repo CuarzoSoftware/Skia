@@ -8,9 +8,9 @@
 #ifndef SkPathMakers_DEFINED
 #define SkPathMakers_DEFINED
 
-#include "cz/skia/core/SkPathTypes.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkRRect.h"
+#include "CZ/skia/core/SkPathTypes.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkRRect.h"
 
 template <unsigned N> class SkPath_PointIterator {
 public:

@@ -8,7 +8,7 @@
 #ifndef skgpu_graphite_DawnBackendContext_DEFINED
 #define skgpu_graphite_DawnBackendContext_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 #include "webgpu/webgpu_cpp.h"  // NO_G3_REWRITE
 
 #include <memory>

@@ -7,10 +7,10 @@
 #ifndef SkPathOps_DEFINED
 #define SkPathOps_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkTArray.h"
-#include "cz/skia/private/base/SkTDArray.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkTArray.h"
+#include "CZ/skia/private/base/SkTDArray.h"
 
 struct SkRect;
 

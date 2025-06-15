@@ -8,7 +8,7 @@
 #ifndef SkSamplingPriv_DEFINED
 #define SkSamplingPriv_DEFINED
 
-#include "cz/skia/core/SkSamplingOptions.h"
+#include "CZ/skia/core/SkSamplingOptions.h"
 
 class SkReadBuffer;
 class SkWriteBuffer;

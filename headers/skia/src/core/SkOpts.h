@@ -8,8 +8,8 @@
 #ifndef SkOpts_DEFINED
 #define SkOpts_DEFINED
 
-#include "cz/skia/private/base/SkSpan_impl.h"
-#include "cz/skia/src/core/SkRasterPipelineOpList.h"
+#include "CZ/skia/private/base/SkSpan_impl.h"
+#include "CZ/skia/src/core/SkRasterPipelineOpList.h"
 
 #include <cstddef>
 #include <cstdint>

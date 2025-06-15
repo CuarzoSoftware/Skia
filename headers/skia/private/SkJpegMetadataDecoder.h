@@ -8,9 +8,9 @@
 #ifndef SkJpegMetadataDecoder_DEFINED
 #define SkJpegMetadataDecoder_DEFINED
 
-#include "cz/skia/core/SkData.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkData.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <memory>
 #include <vector>

@@ -4,7 +4,7 @@
 #ifndef BentleyOttman1_DEFINED
 #define BentleyOttman1_DEFINED
 
-#include "cz/skia/core/SkSpan.h"
+#include "CZ/skia/core/SkSpan.h"
 
 #include <optional>
 #include <vector>

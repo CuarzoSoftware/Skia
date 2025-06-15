@@ -8,11 +8,11 @@
 #ifndef SkRecord_DEFINED
 #define SkRecord_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkTemplates.h"
-#include "cz/skia/src/base/SkArenaAlloc.h"
-#include "cz/skia/src/core/SkRecords.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkTemplates.h"
+#include "CZ/skia/src/base/SkArenaAlloc.h"
+#include "CZ/skia/src/core/SkRecords.h"
 
 #include <cstddef>
 #include <type_traits>

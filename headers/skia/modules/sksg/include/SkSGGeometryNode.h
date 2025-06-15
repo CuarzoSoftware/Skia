@@ -8,7 +8,7 @@
 #ifndef SkSGGeometryNode_DEFINED
 #define SkSGGeometryNode_DEFINED
 
-#include "cz/skia/modules/sksg/include/SkSGNode.h"
+#include "CZ/skia/modules/sksg/include/SkSGNode.h"
 
 class SkCanvas;
 class SkPaint;

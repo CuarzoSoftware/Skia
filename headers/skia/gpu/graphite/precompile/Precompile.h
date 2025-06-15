@@ -8,10 +8,10 @@
 #ifndef skgpu_graphite_precompile_Precompile_DEFINED
 #define skgpu_graphite_precompile_Precompile_DEFINED
 
-#include "cz/skia/core/SkColorSpace.h"
-#include "cz/skia/core/SkColorType.h"
-#include "cz/skia/core/SkSpan.h"
-#include "cz/skia/gpu/graphite/GraphiteTypes.h"
+#include "CZ/skia/core/SkColorSpace.h"
+#include "CZ/skia/core/SkColorType.h"
+#include "CZ/skia/core/SkSpan.h"
+#include "CZ/skia/gpu/graphite/GraphiteTypes.h"
 
 namespace skgpu::graphite {
 

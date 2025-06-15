@@ -7,9 +7,9 @@
 #ifndef SkIcoDecoder_DEFINED
 #define SkIcoDecoder_DEFINED
 
-#include "cz/skia/codec/SkCodec.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/codec/SkCodec.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 class SkData;
 class SkStream;

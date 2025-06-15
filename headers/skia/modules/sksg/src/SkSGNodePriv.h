@@ -8,7 +8,7 @@
 #ifndef SkSGNodePriv_DEFINED
 #define SkSGNodePriv_DEFINED
 
-#include "cz/skia/modules/sksg/include/SkSGNode.h"
+#include "CZ/skia/modules/sksg/include/SkSGNode.h"
 
 namespace sksg {
 

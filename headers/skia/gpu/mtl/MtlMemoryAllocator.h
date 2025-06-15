@@ -8,7 +8,7 @@
 #ifndef skgpu_MtlMemoryAllocator_DEFINED
 #define skgpu_MtlMemoryAllocator_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkRefCnt.h"
 
 #ifdef __APPLE__
 

@@ -8,9 +8,9 @@
 #ifndef skgpu_MutableTextureState_DEFINED
 #define skgpu_MutableTextureState_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkAnySubclass.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkAnySubclass.h"
 
 #include <cstddef>
 

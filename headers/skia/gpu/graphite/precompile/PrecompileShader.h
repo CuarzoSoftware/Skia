@@ -8,11 +8,11 @@
 #ifndef skgpu_graphite_precompile_PrecompileShader_DEFINED
 #define skgpu_graphite_precompile_PrecompileShader_DEFINED
 
-#include "cz/skia/gpu/graphite/precompile/PrecompileBase.h"
+#include "CZ/skia/gpu/graphite/precompile/PrecompileBase.h"
 
-#include "cz/skia/core/SkBlendMode.h"
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/effects/SkGradientShader.h"
+#include "CZ/skia/core/SkBlendMode.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/effects/SkGradientShader.h"
 
 class SkColorSpace;
 

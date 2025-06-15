@@ -9,10 +9,10 @@
 #ifndef SkEdgeClipper_DEFINED
 #define SkEdgeClipper_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/core/SkPoint.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/private/base/SkDebug.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/core/SkPoint.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/private/base/SkDebug.h"
 
 struct SkRect;
 

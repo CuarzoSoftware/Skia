@@ -7,8 +7,8 @@
 #ifndef GrGLMakeEGLInterface_DEFINED
 #define GrGLMakeEGLInterface_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/gpu/ganesh/GrTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/gpu/ganesh/GrTypes.h"
 
 struct GrGLInterface;
 

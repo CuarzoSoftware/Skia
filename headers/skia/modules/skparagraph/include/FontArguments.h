@@ -4,8 +4,8 @@
 
 #include <functional>
 #include <vector>
-#include "cz/skia/core/SkFontArguments.h"
-#include "cz/skia/core/SkTypeface.h"
+#include "CZ/skia/core/SkFontArguments.h"
+#include "CZ/skia/core/SkTypeface.h"
 
 namespace skia {
 namespace textlayout {

@@ -8,8 +8,8 @@
 #ifndef GrGLBackendSurface_DEFINED
 #define GrGLBackendSurface_DEFINED
 
-#include "cz/skia/gpu/ganesh/gl/GrGLTypes.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/gpu/ganesh/gl/GrGLTypes.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <string_view>
 

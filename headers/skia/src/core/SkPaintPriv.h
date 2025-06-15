@@ -8,8 +8,8 @@
 #ifndef SkPaintPriv_DEFINED
 #define SkPaintPriv_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkPaint.h"
 
 class SkColorSpace;
 class SkReadBuffer;

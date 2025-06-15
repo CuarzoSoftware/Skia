@@ -8,7 +8,7 @@
 #ifndef SKFONTSCANNER_FREETYPE_H_
 #define SKFONTSCANNER_FREETYPE_H_
 
-#include "cz/skia/core/SkFontScanner.h"
+#include "CZ/skia/core/SkFontScanner.h"
 
 SK_API std::unique_ptr<SkFontScanner> SkFontScanner_Make_FreeType();
 

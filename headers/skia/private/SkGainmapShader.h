@@ -8,8 +8,8 @@
 #ifndef SkGainmapShader_DEFINED
 #define SkGainmapShader_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 class SkColorSpace;
 class SkShader;

@@ -8,7 +8,7 @@
 #ifndef SkYUVPlanesCache_DEFINED
 #define SkYUVPlanesCache_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 #include <cstdint>
 

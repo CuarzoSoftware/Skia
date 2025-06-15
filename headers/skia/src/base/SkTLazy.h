@@ -8,7 +8,7 @@
 #ifndef SkTLazy_DEFINED
 #define SkTLazy_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkAssert.h"
 
 #include <optional>
 #include <utility>

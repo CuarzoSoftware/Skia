@@ -8,8 +8,8 @@
 #ifndef SkTSort_DEFINED
 #define SkTSort_DEFINED
 
-#include "cz/skia/private/base/SkTo.h"
-#include "cz/skia/src/base/SkMathPriv.h"
+#include "CZ/skia/private/base/SkTo.h"
+#include "CZ/skia/src/base/SkMathPriv.h"
 
 #include <cstddef>
 #include <utility>

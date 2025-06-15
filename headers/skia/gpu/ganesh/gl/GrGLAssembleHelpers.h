@@ -7,9 +7,9 @@
 #ifndef GrGLAssembleHelpers_DEFINED
 #define GrGLAssembleHelpers_DEFINED
 
-#include "cz/skia/gpu/ganesh/gl/GrGLAssembleInterface.h"
-#include "cz/skia/gpu/ganesh/gl/GrGLFunctions.h"
-#include "cz/skia/gpu/ganesh/gl/GrGLTypes.h"
+#include "CZ/skia/gpu/ganesh/gl/GrGLAssembleInterface.h"
+#include "CZ/skia/gpu/ganesh/gl/GrGLFunctions.h"
+#include "CZ/skia/gpu/ganesh/gl/GrGLTypes.h"
 
 void GrGetEGLQueryAndDisplay(GrEGLQueryStringFn** queryString, GrEGLDisplay* display,
                              void* ctx, GrGLGetProc get);

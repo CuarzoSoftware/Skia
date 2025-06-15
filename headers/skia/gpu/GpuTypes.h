@@ -8,7 +8,7 @@
 #ifndef skgpu_GpuTypes_DEFINED
 #define skgpu_GpuTypes_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
 /**
  * This file includes numerous public types that are used by all of our gpu backends.

@@ -8,9 +8,9 @@
 #ifndef skgpu_graphite_precompile_PrecompileMaskFilter_DEFINED
 #define skgpu_graphite_precompile_PrecompileMaskFilter_DEFINED
 
-#include "cz/skia/gpu/graphite/precompile/PrecompileBase.h"
+#include "CZ/skia/gpu/graphite/precompile/PrecompileBase.h"
 
-#include "cz/skia/gpu/graphite/precompile/PaintOptions.h"
+#include "CZ/skia/gpu/graphite/precompile/PaintOptions.h"
 
 namespace skgpu::graphite {
 

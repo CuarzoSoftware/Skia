@@ -8,8 +8,8 @@
 #ifndef GrMtlTypes_DEFINED
 #define GrMtlTypes_DEFINED
 
-#include "cz/skia/gpu/GpuTypes.h"
-#include "cz/skia/ports/SkCFObject.h"
+#include "CZ/skia/gpu/GpuTypes.h"
+#include "CZ/skia/ports/SkCFObject.h"
 
 /**
  * Declares typedefs for Metal types used in Ganesh cpp code

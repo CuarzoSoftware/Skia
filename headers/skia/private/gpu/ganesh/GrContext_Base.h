@@ -8,9 +8,9 @@
 #ifndef GrContext_Base_DEFINED
 #define GrContext_Base_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/gpu/ganesh/GrTypes.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/gpu/ganesh/GrTypes.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <cstdint>
 

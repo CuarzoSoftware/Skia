@@ -8,9 +8,9 @@
 #ifndef SkSafeMath_DEFINED
 #define SkSafeMath_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h" // IWYU pragma: keep
-#include "cz/skia/private/base/SkTFitsIn.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h" // IWYU pragma: keep
+#include "CZ/skia/private/base/SkTFitsIn.h"
 
 #include <cstddef>
 #include <cstdint>

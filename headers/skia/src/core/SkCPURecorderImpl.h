@@ -8,8 +8,8 @@
 #ifndef skcpu_RecorderImpl_DEFINED
 #define skcpu_RecorderImpl_DEFINED
 
-#include "cz/skia/core/SkCPURecorder.h"
-#include "cz/skia/src/core/SkCPUContextImpl.h"
+#include "CZ/skia/core/SkCPURecorder.h"
+#include "CZ/skia/src/core/SkCPUContextImpl.h"
 
 namespace skcpu {
 

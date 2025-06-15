@@ -8,9 +8,9 @@
 #ifndef GrGLInterface_DEFINED
 #define GrGLInterface_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/gpu/ganesh/gl/GrGLExtensions.h"
-#include "cz/skia/gpu/ganesh/gl/GrGLFunctions.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/gpu/ganesh/gl/GrGLExtensions.h"
+#include "CZ/skia/gpu/ganesh/gl/GrGLFunctions.h"
 
 ////////////////////////////////////////////////////////////////////////////////
 

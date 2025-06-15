@@ -8,11 +8,11 @@
 #ifndef skgpu_graphite_MtlGraphiteTypesUtils_DEFINED
 #define skgpu_graphite_MtlGraphiteTypesUtils_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
+#include "CZ/skia/core/SkTypes.h"
 
-#include "cz/skia/gpu/graphite/BackendTexture.h"
-#include "cz/skia/gpu/graphite/TextureInfo.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/gpu/graphite/BackendTexture.h"
+#include "CZ/skia/gpu/graphite/TextureInfo.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #import <CoreFoundation/CoreFoundation.h>
 

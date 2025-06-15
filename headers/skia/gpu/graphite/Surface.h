@@ -8,9 +8,9 @@
 #ifndef skgpu_graphite_Surface_DEFINED
 #define skgpu_graphite_Surface_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSurface.h"
-#include "cz/skia/gpu/GpuTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSurface.h"
+#include "CZ/skia/gpu/GpuTypes.h"
 
 #include <string_view>
 

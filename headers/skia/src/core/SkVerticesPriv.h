@@ -8,9 +8,9 @@
 #ifndef SkVerticesPriv_DEFINED
 #define SkVerticesPriv_DEFINED
 
-#include "cz/skia/core/SkVertices.h"
+#include "CZ/skia/core/SkVertices.h"
 
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 class SkReadBuffer;
 class SkWriteBuffer;

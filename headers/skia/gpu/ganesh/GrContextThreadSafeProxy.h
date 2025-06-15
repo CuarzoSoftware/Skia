@@ -8,11 +8,11 @@
 #ifndef GrContextThreadSafeProxy_DEFINED
 #define GrContextThreadSafeProxy_DEFINED
 
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/gpu/GpuTypes.h"
-#include "cz/skia/gpu/ganesh/GrContextOptions.h"
-#include "cz/skia/gpu/ganesh/GrTypes.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/gpu/GpuTypes.h"
+#include "CZ/skia/gpu/ganesh/GrContextOptions.h"
+#include "CZ/skia/gpu/ganesh/GrTypes.h"
 
 #include <atomic>
 #include <cstddef>

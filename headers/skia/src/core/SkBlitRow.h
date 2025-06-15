@@ -8,8 +8,8 @@
 #ifndef SkBlitRow_DEFINED
 #define SkBlitRow_DEFINED
 
-#include "cz/skia/core/SkBitmap.h"
-#include "cz/skia/core/SkColor.h"
+#include "CZ/skia/core/SkBitmap.h"
+#include "CZ/skia/core/SkColor.h"
 
 class SkBlitRow {
 public:

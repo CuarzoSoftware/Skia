@@ -8,8 +8,8 @@
 #ifndef SkResourceCache_DEFINED
 #define SkResourceCache_DEFINED
 
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/src/core/SkMessageBus.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/src/core/SkMessageBus.h"
 
 #include <cstddef>
 #include <cstdint>

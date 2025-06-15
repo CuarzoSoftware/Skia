@@ -8,9 +8,9 @@
 #ifndef SkCachedData_DEFINED
 #define SkCachedData_DEFINED
 
-#include "cz/skia/core/SkTypes.h"
-#include "cz/skia/private/base/SkMutex.h"
-#include "cz/skia/private/base/SkNoncopyable.h"
+#include "CZ/skia/core/SkTypes.h"
+#include "CZ/skia/private/base/SkMutex.h"
+#include "CZ/skia/private/base/SkNoncopyable.h"
 
 #include <cstddef>
 

@@ -19,8 +19,8 @@
 // and alignment and is safe to use across translation units freely.
 // (Ideally we'd only align to T, but that tanks ARMv7 NEON codegen.)
 
-#include "cz/skia/private/base/SkFeatures.h"
-#include "cz/skia/src/base/SkUtils.h"
+#include "CZ/skia/private/base/SkFeatures.h"
+#include "CZ/skia/src/base/SkUtils.h"
 #include <algorithm>         // std::min, std::max
 #include <cassert>           // assert()
 #include <cmath>             // ceilf, floorf, truncf, roundf, sqrtf, etc.

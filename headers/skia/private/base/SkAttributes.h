@@ -8,8 +8,8 @@
 #ifndef SkAttributes_DEFINED
 #define SkAttributes_DEFINED
 
-#include "cz/skia/private/base/SkFeatures.h" // IWYU pragma: keep
-#include "cz/skia/private/base/SkLoadUserConfig.h" // IWYU pragma: keep
+#include "CZ/skia/private/base/SkFeatures.h" // IWYU pragma: keep
+#include "CZ/skia/private/base/SkLoadUserConfig.h" // IWYU pragma: keep
 
 #if defined(__clang__) || defined(__GNUC__)
 #  define SK_ATTRIBUTE(attr) __attribute__((attr))

@@ -8,12 +8,12 @@
 #ifndef SkPathEffect_DEFINED
 #define SkPathEffect_DEFINED
 
-#include "cz/skia/core/SkFlattenable.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/core/SkFlattenable.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 // TODO(kjlubick) update clients and remove this unnecessary #include
-#include "cz/skia/core/SkPath.h"  // IWYU pragma: keep
+#include "CZ/skia/core/SkPath.h"  // IWYU pragma: keep
 
 #include <cstddef>
 

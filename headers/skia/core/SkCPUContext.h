@@ -7,7 +7,7 @@
 #ifndef skcpu_Context_DEFINED
 #define skcpu_Context_DEFINED
 
-#include "cz/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkAPI.h"
 
 #include <memory>
 

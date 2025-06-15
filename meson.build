@@ -94,7 +94,7 @@ sources = [
     run_command('find', './modules/svg', '-type', 'f', '-name', '*.cpp', check : false).stdout().strip().split('\n')
 ]
 
-install_subdir('headers/skia', install_dir: join_paths(HEADERS_INSTALL_PATH, 'cz'))
+install_subdir('headers/skia', install_dir: join_paths(HEADERS_INSTALL_PATH, 'CZ'))
 
 cz_skia = library(
     'cz-skia',
@@ -113,7 +113,7 @@ pkg.generate(
     filebase: 'cz-skia',
     description: 'Cuarzo modified version of Skia',
     version: meson.project_version(),
-    subdirs: ['cz'], # incdir
+    subdirs: ['CZ'], # incdir
     libraries: deps,
     extra_cflags: [
     '-DSK_RELEASE',

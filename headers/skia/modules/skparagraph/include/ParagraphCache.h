@@ -2,8 +2,8 @@
 #ifndef ParagraphCache_DEFINED
 #define ParagraphCache_DEFINED
 
-#include "cz/skia/private/base/SkMutex.h"
-#include "cz/skia/src/core/SkLRUCache.h"
+#include "CZ/skia/private/base/SkMutex.h"
+#include "CZ/skia/src/core/SkLRUCache.h"
 #include <functional>  // std::function
 
 #define PARAGRAPH_CACHE_STATS

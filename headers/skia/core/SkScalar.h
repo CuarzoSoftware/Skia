@@ -8,8 +8,8 @@
 #ifndef SkScalar_DEFINED
 #define SkScalar_DEFINED
 
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkFloatingPoint.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkFloatingPoint.h"
 
 #include <cmath>
 

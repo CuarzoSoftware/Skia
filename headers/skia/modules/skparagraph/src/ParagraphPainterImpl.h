@@ -2,8 +2,8 @@
 #ifndef ParagraphPainterImpl_DEFINED
 #define ParagraphPainterImpl_DEFINED
 
-#include "cz/skia/core/SkCanvas.h"
-#include "cz/skia/modules/skparagraph/include/ParagraphPainter.h"
+#include "CZ/skia/core/SkCanvas.h"
+#include "CZ/skia/modules/skparagraph/include/ParagraphPainter.h"
 
 namespace skia {
 namespace textlayout {

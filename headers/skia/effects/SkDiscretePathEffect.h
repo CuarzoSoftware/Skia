@@ -8,7 +8,7 @@
 #ifndef SkDiscretePathEffect_DEFINED
 #define SkDiscretePathEffect_DEFINED
 
-#include "cz/skia/core/SkPathEffect.h"
+#include "CZ/skia/core/SkPathEffect.h"
 
 /** \class SkDiscretePathEffect
 

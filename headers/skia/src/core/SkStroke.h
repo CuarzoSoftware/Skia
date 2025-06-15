@@ -8,12 +8,12 @@
 #ifndef SkStroke_DEFINED
 #define SkStroke_DEFINED
 
-#include "cz/skia/core/SkPaint.h"
-#include "cz/skia/core/SkPathTypes.h"
-#include "cz/skia/core/SkScalar.h"
-#include "cz/skia/private/base/SkAssert.h"
-#include "cz/skia/private/base/SkDebug.h"
-#include "cz/skia/private/base/SkTo.h"
+#include "CZ/skia/core/SkPaint.h"
+#include "CZ/skia/core/SkPathTypes.h"
+#include "CZ/skia/core/SkScalar.h"
+#include "CZ/skia/private/base/SkAssert.h"
+#include "CZ/skia/private/base/SkDebug.h"
+#include "CZ/skia/private/base/SkTo.h"
 
 #include <cmath>
 #include <cstdint>

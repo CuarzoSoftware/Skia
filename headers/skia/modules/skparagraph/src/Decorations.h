@@ -2,10 +2,10 @@
 #ifndef Decorations_DEFINED
 #define Decorations_DEFINED
 
-#include "cz/skia/core/SkPath.h"
-#include "cz/skia/modules/skparagraph/include/ParagraphPainter.h"
-#include "cz/skia/modules/skparagraph/include/TextStyle.h"
-#include "cz/skia/modules/skparagraph/src/TextLine.h"
+#include "CZ/skia/core/SkPath.h"
+#include "CZ/skia/modules/skparagraph/include/ParagraphPainter.h"
+#include "CZ/skia/modules/skparagraph/include/TextStyle.h"
+#include "CZ/skia/modules/skparagraph/src/TextLine.h"
 
 namespace skia {
 namespace textlayout {

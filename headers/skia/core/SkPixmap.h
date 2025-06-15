@@ -8,15 +8,15 @@
 #ifndef SkPixmap_DEFINED
 #define SkPixmap_DEFINED
 
-#include "cz/skia/core/SkColor.h"
-#include "cz/skia/core/SkColorType.h"
-#include "cz/skia/core/SkImageInfo.h"
-#include "cz/skia/core/SkRect.h"
-#include "cz/skia/core/SkRefCnt.h"
-#include "cz/skia/core/SkSamplingOptions.h"
-#include "cz/skia/core/SkSize.h"
-#include "cz/skia/private/base/SkAPI.h"
-#include "cz/skia/private/base/SkAssert.h"
+#include "CZ/skia/core/SkColor.h"
+#include "CZ/skia/core/SkColorType.h"
+#include "CZ/skia/core/SkImageInfo.h"
+#include "CZ/skia/core/SkRect.h"
+#include "CZ/skia/core/SkRefCnt.h"
+#include "CZ/skia/core/SkSamplingOptions.h"
+#include "CZ/skia/core/SkSize.h"
+#include "CZ/skia/private/base/SkAPI.h"
+#include "CZ/skia/private/base/SkAssert.h"
 
 #include <cstddef>
 #include <cstdint>
