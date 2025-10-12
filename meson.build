@@ -1,5 +1,5 @@
 project(
-    'cz-skia',
+    'Skia',
     'c','cpp',
     version : run_command('cat', files('VERSION'), check : false).stdout().strip(),
     meson_version: '>= 0.62.0',
