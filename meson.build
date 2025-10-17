@@ -1,5 +1,5 @@
 project(
-    'Skia',
+    'cz-skia',
     'c','cpp',
     version : run_command('cat', files('VERSION'), check : false).stdout().strip(),
     meson_version: '>= 0.62.0',
@@ -94,28 +94,9 @@ sources = [
     run_command('find', './modules/svg', '-type', 'f', '-name', '*.cpp', check : false).stdout().strip().split('\n')
 ]
 
-install_subdir('headers/skia', install_dir: join_paths(HEADERS_INSTALL_PATH, 'CZ'))
+install_subdir('headers/CZ/skia', install_dir: join_paths(HEADERS_INSTALL_PATH, 'CZ'))
 
-cz_skia = library(
-    'cz-skia',
-    sources : sources,
-    include_directories : [
-        include_directories('.'),
-        include_directories('./src/EXTRA')
-    ],
-    dependencies : deps,
-    soversion: VERSION_MAJOR,
-    install : true)
-
-pkg.generate(
-    cz_skia,
-    name: 'cz-skia',
-    filebase: 'cz-skia',
-    description: 'Cuarzo modified version of Skia',
-    version: meson.project_version(),
-    subdirs: ['CZ'], # incdir
-    libraries: deps,
-    extra_cflags: [
+cflags = [
     '-DSK_RELEASE',
     '-DSKCMS_DISABLE_HSW',
     '-DSKCMS_DISABLE_SKX',
@@ -128,5 +109,32 @@ pkg.generate(
     '-DSK_VULKAN',
     '-DSK_GL',
     '-DSK_GANESH'
-    ]) 
+    ]
+
+cz_skia = library(
+    'cz-skia',
+    sources : sources,
+    include_directories : [
+        include_directories('.'),
+        include_directories('./src/EXTRA')
+    ],
+    dependencies : deps,
+    soversion: VERSION_MAJOR,
+    install : true)
+
+cz_skia_dep = declare_dependency(
+    dependencies: deps,
+    include_directories : ['src', 'headers'],
+    link_with : cz_skia,
+    compile_args: cflags)
+
+pkg.generate(
+    cz_skia,
+    name: 'cz-skia',
+    filebase: 'cz-skia',
+    description: 'Cuarzo modified version of Skia',
+    version: meson.project_version(),
+    subdirs: ['CZ'], # incdir
+    libraries: deps,
+    extra_cflags: cflags) 
 
