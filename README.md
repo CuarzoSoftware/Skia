@@ -9,6 +9,8 @@
   </a>
 </p>
 
+> This project is part of the [Cuarzo Framework](https://github.com/CuarzoSoftware/Cuarzo). Follow the instructions there to build and install it.
+
 This repository contains a **slightly modified** version of [Skia C++](https://github.com/google/skia), adapted for building with **Meson** on Linux.
 
 The entire library and its modules are compiled into a **single shared library**.
